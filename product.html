@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phenikaa Huế</title>
+    <title>Phenikaa | Sản phẩm</title>
     <link rel="stylesheet" href="src/styles/css/main.css">
     <link rel="stylesheet" href="src/styles-tailwindcss/tailwindcss.css">
 
     <script type="module">
         import './src/Features/SiteHeader.tsx';
         import './src/Features/SiteFooter.tsx';
-        import './src/Features/SliderMousewheelControlBlock.tsx';
+        import './src/Features/SliderHeroProductBanner.tsx';
+        import './src/Features/ColumnTextContentBlock.tsx';
+        import './src/Features/ProductApplications.tsx';
+        import './src/Features/ListProductBlock.tsx';
+        import './src/Features/AccordionInformationBlock.tsx';
+        import './src/Features/OrderProductBlock.tsx';
         
-        import './src/Features/SliderArticle.tsx';
-        import './src/Features/SliderProduct.tsx';
-        import './src/Features/AccordionContentBlock.tsx';
-        import './src/Features/SliderCustomers.tsx';
-        import './src/Features/SliderTestimonials.tsx';
     </script>
 </head>
 
@@ -30,13 +30,12 @@
     </site-header>
 
     <main class="main-content">
-        <slider-mousewheel-control-block></slider-mousewheel-control-block>
-
-        <slider-product></slider-product>
-        <slider-article></slider-article>
-        <accordion-content-block></accordion-content-block>
-        <slider-customers></slider-customers>
-        <slider-testimonials></slider-testimonials>
+        <slider-hero-product-banner></slider-hero-product-banner>
+        <column-text-content-block></column-text-content-block>
+        <product-applications></product-applications>
+        <list-product-block></list-product-block>
+        <accordion-information-block></accordion-information-block>
+        <order-product-block></order-product-block>
     </main>
 
     <site-footer

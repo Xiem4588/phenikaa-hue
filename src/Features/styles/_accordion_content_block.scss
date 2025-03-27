@@ -13,16 +13,6 @@
     @include grid-columns($columns: 1);
 }
 
-
-.accordion-content-block__image {
-    img {
-        width: 100%;
-        height: 100%;
-        display: block;
-        object-fit: cover;
-    }
-}
-
 .accordion-content-block__text-container {
     display: flex;
     flex-direction: column;

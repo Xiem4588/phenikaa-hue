@@ -35,8 +35,52 @@
 
 }
 
-.slider-product-banner-detail {
+.slider-hero-product-banner {
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
 
+    .swiper-slide {
+        text-align: center;
+        background: #fff;
+        color: #323B4B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: var(--typography-heading-l);
+        line-height: 150%;
+        cursor: pointer;
+
+        
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .mySwiper2 {
+        height: calc(100vh - 200px);
+        width: 100%;
+    }
+
+    .mySwiper {
+        box-sizing: border-box;
+        height: 200px;
+        
+        .swiper-slide {
+            width: 25%;
+            height: 100%;
+            transition: all .2s;
+        }
+    
+        .swiper-slide-thumb-active {
+            background: #E3EFF6;
+        }
+    }
 }
 
 .slider-product-block,

@@ -5,7 +5,7 @@
 [data-layout-smart="2-per-row"] {
     @include grid-columns($columns: 1);
 
-    @include container-desktop {
+    @include container-mobile-medium {
         @include grid-columns($columns: 2);
     }
 }

@@ -1,0 +1,67 @@
+@use '../../styles/sass/mixins/' as *;
+
+:root {}
+
+.list-product-block {
+    padding: var(--space-24) var(--space-16);
+
+    @include media-tablet-medium {
+        padding: var(--space-80) var(--space-24);
+    }
+}
+
+.list-product-block-item {
+    height: 100%;
+}
+
+.list-product-block-item__wrapper {
+    @include flex-layout($direction: column, $gap: 0);
+    height: 100%;
+    font-weight: 400;
+    transition: all 0.3s;
+
+    &:hover {
+        background: rgb(var(--theme-on-background), 0.1);
+
+        .list-product-block-item__image img {
+            transform: scale(1.05);
+        }
+    }
+}
+
+
+.list-product-block-item__image {
+    overflow: hidden;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    img {
+        transition: transform 0.3s;
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+}
+
+.list-product-block-item__content {
+    @include flex-layout($direction: column, $gap: var(--space-16));
+    padding: var(--space-16);
+
+    @include container-tablet {
+        padding: var(--space-24);
+    }
+}
+
+.list-product-block-item__content-text {
+    @include flex-layout($direction: column, $gap: var(--space-4));
+
+    @include container-tablet {
+        gap: var(--space-12)
+    }
+}

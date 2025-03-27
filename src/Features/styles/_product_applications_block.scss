@@ -1,0 +1,81 @@
+@use '../../styles/sass/mixins/' as *;
+
+:root {}
+
+.product-applications-block {
+    padding: var(--space-24) var(--space-16);
+
+    @include media-tablet-medium {
+        padding: var(--space-80) var(--space-24);
+    }
+}
+
+.product-applications-item__wrapper {
+    @include flex-layout($direction: column, $gap: 0);
+    height: 100%;
+    font-weight: 400;
+    transition: all 0.3s;
+    container-type: inline-size;
+
+    &:hover {
+        background: rgb(var(--theme-on-background), 0.1);
+
+        .product-applications-item__image img {
+            transform: scale(1.05);
+        }
+    }
+}
+
+.product-applications-item__image {
+    overflow: hidden;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    img {
+        transition: transform 0.3s;
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+}
+
+.product-applications-item__content {
+    @include flex-layout($direction: column, $gap: var(--space-16));
+    padding: var(--space-24) var(--space-16);
+
+    @include container-mobile {
+        padding: var(--space-32) var(--space-24);
+    }
+}
+
+.product-applications-item__content-text {
+    @include flex-layout($direction: column, $gap: var(--space-24));
+}
+
+.product-applications-item__time {
+    @include flex-layout($direction: row, $gap: 0 var(--space-8));
+    flex-wrap: wrap;
+    opacity: var(--opacity-06);
+}
+
+.product-applications-item__title,
+.product-applications-item__preamble {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @include media-tablet {
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+    }
+}
+

@@ -3,8 +3,11 @@
     /*{ "key":"--color-rgba-white", "value":"#FFFFFF", "name":"White" }*/
     --color-rgba-white: 255, 255, 255;
 
-    /*{ "key":"--color-rgba-black", "value":"#111111", "name":"Black" "allowedInBlocks":"true" }*/
+    /*{ "key":"--color-rgba-black", "value":"#000000", "name":"Black" "allowedInBlocks":"true" }*/
     --color-rgba-black: 0, 0, 0;
+
+    /*{ "key":"--color-rgba-dark-gray", "value":"#323B4B", "name":"Black" "allowedInBlocks":"true" }*/
+    --color-rgba-dark-gray: 50, 59, 75, 1;
 
     /*{ "key":"--color-rgba-beige", "value":"#EBDED3", "name":"Beige", "allowedInBlocks":"true" }*/
     --color-rgba-beige: 235, 222, 211;

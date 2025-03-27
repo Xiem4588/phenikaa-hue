@@ -27,23 +27,17 @@ const sliderCubeControlBlock = new Swiper("[data-slider-cube-control]", {
     },
 });
 
-const sliderImageLargeProductDetail = new Swiper("[data-product-detail-slider-large]", {
-  modules: [Navigation, Thumbs],
-  spaceBetween: 1,
-  slidesPerView: 1,
+const sliderHeroProductBannerThumb = new Swiper("[data-slide-product-banner-thumb]", {
+  spaceBetween: 5,
+  slidesPerView: 2,
   freeMode: true,
   watchSlidesProgress: true,
 });
-const sliderImageSmallProductDetail = new Swiper("[data-product-detail-slider-small]", {
+const sliderHeroProductBannerLarge = new Swiper("[data-slide-product-banner-large]", {
   modules: [Navigation, Thumbs],
   spaceBetween: 2,
-  slidesPerView: 2,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
   thumbs: {
-    swiper: sliderImageLargeProductDetail,
+    swiper: sliderHeroProductBannerThumb,
   },
 });
 
@@ -127,4 +121,4 @@ const sliderTestimonialsBlock = new Swiper("[data-slider-testimonials]", {
   },
 });
 
-export { sliderCubeControlBlock, sliderImageLargeProductDetail, sliderImageSmallProductDetail, sliderArticleBlock, sliderProductBlock, sliderCustomersBlock, sliderTestimonialsBlock };
+export { sliderCubeControlBlock, sliderHeroProductBannerThumb, sliderHeroProductBannerLarge, sliderArticleBlock, sliderProductBlock, sliderCustomersBlock, sliderTestimonialsBlock };

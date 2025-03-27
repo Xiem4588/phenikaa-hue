@@ -7,7 +7,7 @@ export default class SliderCustomersBlock extends HTMLElement {
 
         this.innerHTML = `
             <div class="slider-customers-block" data-background="dark">
-                <div class="slider-customers-block__container" data-container-width="site">
+                <div class="slider-customers-block__container" data-container-width="bodytext">
                     <div class="slider-customers-block__heading text-center">
                         <h2 class="slider-customers-block__title">Khách hàng tiêu biểu</h2>
                     </div>
