@@ -1,0 +1,49 @@
+// This is the file where the themes are defined. The themes are defined using CSS custom properties. The themes are used to change.
+
+:root {
+    --theme-light-background: 255,255,255;
+    --theme-light-color-text: 0,0,0;
+}
+
+[data-site-theme="light"] {
+    color-scheme: normal;
+    --theme-background: 255,255,255;
+    --theme-surface: 255,255,255;
+    --theme-surface-bright: 250,250,250;
+    --theme-surface-light: 238,238,238;
+    --theme-surface-variant: 66,66,66;
+    --theme-on-surface-variant: 238,238,238;
+    --theme-primary: 24,103,192;
+    --theme-primary-darken-1: 31,85,146;
+    --theme-secondary: 92,187,246;
+    --theme-secondary-darken-1: 1,135,134;
+    --theme-error: 176,0,32;
+    --theme-info: 33,150,243;
+    --theme-success: 76,175,80;
+    --theme-warning: 251,140,0;
+    --theme-surface-variant-alt: 222,222,222;
+    --theme-tertiary: 229,115,115;
+    --theme-accent: 0,92,175;
+    --theme-quaternary: 176,209,232;
+    --theme-on-background: 0,0,0;
+    --theme-on-surface: 0,0,0;
+    --theme-on-surface-bright: 0,0,0;
+    --theme-on-surface-light: 0,0,0;
+    --theme-on-primary: 255,255,255;
+    --theme-on-primary-darken-1: 255,255,255;
+    --theme-on-secondary: 0,0,0;
+    --theme-on-secondary-darken-1: 255,255,255;
+    --theme-on-error: 255,255,255;
+    --theme-on-info: 255,255,255;
+    --theme-on-success: 255,255,255;
+    --theme-on-warning: 255,255,255;
+    --theme-on-surface-variant-alt: 0,0,0;
+    --theme-on-tertiary: 255,255,255;
+    --theme-on-accent: 255,255,255;
+    --theme-on-quaternary: 0,0,0;
+    --theme-kbd: 33,37,41;
+    --theme-on-kbd: 255,255,255;
+    --theme-code: 245,245,245;
+    --theme-on-code: 0,0,0;
+    --border-color: 0,0,0;
+}

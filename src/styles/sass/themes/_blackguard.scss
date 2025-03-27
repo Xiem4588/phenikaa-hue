@@ -1,0 +1,43 @@
+// This is the file where the themes are defined. The themes are defined using CSS custom properties. The themes are used to change.
+
+:root {
+    --theme-blackguard-background: 15,12,36;
+    --theme-blackguard-color-text: 255,255,255;
+}
+
+[data-site-theme="blackguard"] {
+    color-scheme: dark;
+    --theme-background: 15,12,36;
+    --theme-primary: 231,129,13;
+    --theme-surface: 30,24,74;
+    --theme-info: 156,39,176;
+    --theme-accent: 255,64,129;
+    --theme-success: 132,179,138;
+    --theme-surface-light: 54,43,137;
+    --theme-surface-bright: 86,79,138;
+    --theme-surface-variant: 100,88,180;
+    --theme-primary-darken-1: 197,110,11;
+    --theme-secondary: 138,43,226;
+    --theme-secondary-darken-1: 121,25,203;
+    --theme-error: 255,85,85;
+    --theme-warning: 255,167,38;
+    --theme-on-surface-variant: 255,255,255;
+    --theme-on-background: 255,255,255;
+    --theme-on-primary: 255,255,255;
+    --theme-on-surface: 255,255,255;
+    --theme-on-info: 255,255,255;
+    --theme-on-accent: 255,255,255;
+    --theme-on-success: 255,255,255;
+    --theme-on-surface-light: 255,255,255;
+    --theme-on-surface-bright: 255,255,255;
+    --theme-on-primary-darken-1: 255,255,255;
+    --theme-on-secondary: 255,255,255;
+    --theme-on-secondary-darken-1: 255,255,255;
+    --theme-on-error: 255,255,255;
+    --theme-on-warning: 33,33,33;
+    --theme-kbd: 71,71,71;
+    --theme-on-kbd: 255,255,255;
+    --theme-code: 163,163,163;
+    --theme-on-code: 176,209,232;
+    --border-color: 255,255,255;
+}

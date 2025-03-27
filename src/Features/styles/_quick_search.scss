@@ -1,0 +1,106 @@
+@use '../../styles/sass/mixins/' as *;
+
+:root {}
+
+[data-button-quick-search="true"] {
+    &::before {
+        width: 100%;
+    }
+}
+
+.button-quick-search__main {
+    position: relative;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: currentcolor;
+    gap: var(--space-8);
+
+    @include media-desktop-small {
+        line-height: normal;
+    }
+}
+
+.header-quick-search__container {
+    display: none;
+    margin-top: var(--space-32);
+
+    &[aria-hidden="false"] {
+        display: block;
+    }
+}
+
+.header-quick-search__bar {
+    .header-quick-search__form-input {
+        outline: none;
+        border: none;
+        width: 100%;
+        font-weight: 400;
+        font-size: var(--typography-bodytext-s);
+        line-height: 1.2;
+        background: none;
+
+        &::placeholder {
+            opacity: 1;
+            color: var(--color-gray-dark);
+
+            /* Firefox */
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+.header-quick-search__form {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 1px solid currentColor;
+    padding: var(--space-8);
+
+    @include media-desktop-small {
+        flex-direction: row;
+        padding: 0;
+        padding-left: var(--space-16);
+    }
+}
+
+.header-quick-search__search-icon,
+.button-quick-search__area-icon {
+    fill: currentColor;
+    color: currentColor;
+}
+
+.header-quick-search__form-button {
+    display: none;
+    cursor: pointer;
+
+    @include media-desktop-small {
+        display: inline-flex;
+        outline: none;
+        border: none;
+        border-left: 1px solid rgb(var(--border-color), 0.2);
+        border-radius: 0;
+        padding: var(--space-16) var(--space-32);
+        color: currentColor;
+        text-transform: capitalize;
+        font-size: var(--typography-preamble-l);
+        transition: all 0.3s;
+        background: none;
+
+        &:hover:not([disabled]),
+        &:focus {
+            background: rgb(var(--border-color), 0.1);
+            --button-shadow-position: 0px 0px;
+
+            transform: none;
+        }
+    }
+}
+
+.header-quick-search__content {
+    background: rgb(var(--theme-background));
+}

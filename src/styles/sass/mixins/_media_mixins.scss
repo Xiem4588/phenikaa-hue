@@ -1,0 +1,66 @@
+// RESPONSIVE
+@mixin media-mobile {
+    @media (width >= 320px) {
+        @content;
+    }
+}
+
+@mixin media-mobile-medium {
+    @media (width >= 480px) {
+        @content;
+    }
+}
+
+@mixin media-tablet {
+    @media (width >= 600px) {
+        @content;
+    }
+}
+
+@mixin media-tablet-medium {
+    @media (width >= 768px) {
+        @content;
+    }
+}
+
+@mixin media-desktop {
+    @media (width >= 1024px) {
+        @content;
+    }
+}
+
+@mixin media-desktop-small-down {
+    @media (width <= 1279px) {
+        @content;
+    }
+}
+
+@mixin media-desktop-small {
+    @media (width >= 1280px) {
+        @content;
+    }
+}
+
+@mixin media-desktop-medium {
+    @media (width >= 1440px) {
+        @content;
+    }
+}
+
+@mixin media-desktop-large {
+    @media (width >= 1920px) {
+        @content;
+    }
+}
+
+@mixin mediaContainerWidth($width: 1439px, $minmax: "max") {
+    @if $width & $minmax == "max"  {
+        max-width: $width;
+    }
+    @else if $width & $minmax == "min" {
+        min-width: $width;
+    }
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

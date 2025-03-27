@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-site-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+    <link rel="stylesheet" href="src/styles/css/main.css">
+
+    <script type="module">
+        import './src/Features/SiteHeader.tsx';
+        import './src/Features/ArticleListBlock.tsx';
+        import './src/Features/SiteFooter.tsx';
+    </script>
+</head>
+
+<body>
+    <site-header
+        class="main-header"
+        data-header-fixed-top="true"
+        data-header-scroll
+        data-header-height>
+    </site-header>
+
+    <main class="main-content">
+        <article-list-block
+            set-article-page-title="Grid"
+            set-article-list-teaser-layout="grid"
+            set-article-list-background="dark"
+            set-article-list-layout-smart="3-per-row">
+        </article-list-block>
+        <article-list-block
+            set-article-page-title="List"
+            set-article-list-teaser-layout="list"
+            set-article-list-background="default"
+            set-article-list-layout-smart="2-per-row">
+        </article-list-block>
+    </main>
+
+    <site-footer
+        class="main-footer">
+    </site-footer>
+
+    <script src="./src/js/main.ts" type="module"></script>
+</body>
+
+</html>

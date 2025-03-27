@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" data-site-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+    <link rel="stylesheet" href="src/styles/css/main.css">
+
+    <script type="module">
+        import './src/Features/SiteHeader.tsx';
+        import './src/Features/SiteFooter.tsx';
+        import './src/Features/HeroStartBlock.tsx';
+        import './src/Features/SliderCubeControlBlock.tsx';
+        import './src/Features/SliderMousewheelControlBlock.tsx';
+    </script>
+</head>
+
+<body>
+    <site-header
+        class="main-header"
+        data-header-fixed-top="true"
+        data-header-scroll
+        data-header-height>
+    </site-header>
+
+    <main class="main-content">
+        <hero-start-block set-hero-start-background-image="false"></hero-start-block>
+        <slider-mousewheel-control-block></slider-mousewheel-control-block>
+        <slider-cube-control-block></slider-cube-control-block>
+    </main>
+
+    <site-footer
+        class="main-footer">
+    </site-footer>
+
+    <script src="./src/js/main.ts" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+@use '../../styles/sass/mixins/' as *;
+
+:root {}
+
+.breadcrumbs {
+    @include media-tablet-medium {
+        width: 100%;
+    }
+
+    a,
+    span {
+        @include media-tablet-medium {
+            color: currentColor;
+            font-size: var(--typography-preamble-l);
+        }
+    }
+
+    span {
+        opacity: var(--opacity-06);
+    }
+
+    &[data-breadcrumbs-size="small"] {
+        a,
+        span {
+            font-size: var(--typography-preamble-s);
+        }
+    }
+}
+
+.breadcrumbs__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-overflow: ellipsis;
+}
+
+.breadcrumbs__item {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    &:not(:last-child) {
+        &::after {
+            display: inline-block;
+            flex-shrink: 0;
+            transform: rotate(45deg);
+            transition: transform 0.3s;
+            margin: 0 var(--space-12);
+            width: 8px;
+            height: 8px;
+            content: '';
+            border-top: 2px solid currentColor;
+            border-right: 2px solid currentColor;
+
+            @include media-tablet-medium {
+                border-top: 2px solid currentColor;
+                border-right: 2px solid currentColor;
+            }
+        }
+    }
+}

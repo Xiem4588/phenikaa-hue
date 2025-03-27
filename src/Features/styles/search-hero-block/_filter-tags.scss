@@ -1,0 +1,118 @@
+@use '../../../styles/sass/mixins/' as *;
+
+:root {}
+
+.filters {
+    display: block;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.filter__content {
+    .filter[data-filter-appearance='tag'] & {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filter[data-filter-type='category'] & {
+        .filter-text {
+            display: none;
+            flex-direction: row;
+        }
+
+        .filter__content {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    .filter[data-filter-selectiontype='multiplechoice'] & {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-8);
+
+        @include media-desktop {
+            width: 80%;
+        }
+
+        p {
+            display: none;
+        }
+
+        .filter-list-block__resultlisttext {
+            display: none;
+        }
+    }
+}
+
+.filter__optioncontainer {
+    .filter[data-filter-appearance='tag'] & {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-8);
+    }
+
+    .filter[data-filter-type='contenttype'] &,
+    .filter[data-filter-type='category'] & {
+        @include media-desktop {
+            gap: var(--space-16);
+        }
+    }
+}
+
+.filter__legend {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    .filter[data-filter-appearance='tag'] & {
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: var(--typography-body-l-mobile);
+        line-height: var(--typography-lineheight-170);
+
+        @include media-desktop {
+            font-size: var(--typography-body-l);
+        }
+    }
+}
+
+input.filteroption__input {
+    .filter[data-filter-appearance='tag'] & {
+        @include visually-hidden;
+    }
+}
+
+label.filteroption__label {
+    .filter[data-filter-appearance='tag'] & {
+        display: block;
+        transition-duration: 0.15s;
+        transition-property: border, background, color;
+        cursor: pointer;
+        margin: 0;
+        border: 1px solid rgb(var(--border-color), 0.2);
+        padding: var(--space-12) var(--space-20);
+        color: currentColor;
+        font-weight: 500;
+        font-size: var(--typography-label-s);
+        user-select: none;
+
+        @include media-desktop {
+            padding: var(--space-16) var(--space-24);
+        }
+    }
+
+    :checked + & {
+        .filter[data-filter-appearance='tag'] & {
+            background: rgb(var(--theme-quaternary));
+        }
+    }
+
+    &::before,
+    &::after {
+        display: none;
+    }
+}

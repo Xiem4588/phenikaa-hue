@@ -1,0 +1,154 @@
+//  Purpose: Define button styles
+@use "../mixins/" as *;
+
+:root {
+    --button-border-width: 1px;
+    --button-border-style: solid;
+    --button-border-radius: 0;
+    --button-padding: var(--space-12) var(--space-24);
+    --button-font-weight: 400;
+    --button-font-size: var(--typography-bodytext-m);
+    --button-line-height: 1.5;
+    --button-disabled-opacity: 0.4;
+    --button-hover-background: var(--color-gray-300);
+    --button-hover-color: var(--color-black);
+}
+
+.btn {
+    border-width: var(--button-border-width);
+    border-style: var(--button-border-style);
+    border-color: rgb(var(--button-background));
+    border-radius: var(--button-border-radius);
+    background: rgb(var(--button-background));
+    padding: var(--button-padding);
+    color: rgb(var(--button-text-color));
+    font-weight: var(--button-font-weight);
+    font-size: var(--button-font-size);
+    line-height: var(--button-line-height);
+    box-shadow: -5px 5px 0px 0px rgb(var(--button-shadow-background, --border-color), 0.6);
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+
+    &:disabled {
+        opacity: 0.6;
+        pointer-events: none;
+    }
+
+    &:hover:not([disabled]):not(:focus),
+    &:focus,
+    &:disabled {
+        transform: translate(-2px, 2px);
+    }
+}
+
+// Color Variants, [ButtonColors.cs]
+.button--primary {
+    @include button-primary;
+}
+
+.button--secondary {
+    @include button-secondary;
+}
+
+.button--tertiary {
+    @include button-tertiary;
+}
+
+.button--info {
+    @include button-info;
+}
+
+.button--success {
+    @include button-success;
+}
+
+.button--accent {
+    @include button-accent;
+}
+
+.button--error {
+    @include button-error;
+}
+
+.button--warning {
+    @include button-warning;
+}
+
+// Variants [ButtonVariants.cs]
+
+.button--text {
+    border: none;
+    background: transparent;
+    color: var(--button-background);
+}
+
+.button--outlined {
+    --button-outlined-hover-background: var(--button-hover-background);
+    --button-outlined-hover-color: var(--button-hover-color);
+    --button-outlined-hover-border-color: var(--button-outlined-hover-background);
+
+    background: transparent;
+    color: var(--button-background);
+}
+
+// Additional modifiers
+
+.button--sm {
+    --button-font-size: var(--font-size-small);
+    --button-padding: var(--space-8) var(--space-16);
+}
+
+.button--icon {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-4);
+}
+
+// end button
+
+//
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-12);
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+
+*:has(> .btn) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-24);
+}
+
+
+*:has(> .icon-arrow-right) {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-12);
+    font-weight: 500;
+
+    .icon-arrow-right {
+        @include icon-arrow-log;
+    }
+
+    &:hover {
+        .icon-arrow-right {
+            &::after,
+            &::before {
+                right: 0;
+            }
+
+            &::before {
+                width: var(--space-32);
+            }
+        }
+    }
+}

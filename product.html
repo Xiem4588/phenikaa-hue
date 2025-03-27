@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-site-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phenikaa Huế</title>
+    <link rel="stylesheet" href="src/styles/css/main.css">
+    <link rel="stylesheet" href="src/styles-tailwindcss/tailwindcss.css">
+
+    <script type="module">
+        import './src/Features/SiteHeader.tsx';
+        import './src/Features/SiteFooter.tsx';
+        import './src/Features/SliderMousewheelControlBlock.tsx';
+        
+        import './src/Features/SliderArticle.tsx';
+        import './src/Features/SliderProduct.tsx';
+        import './src/Features/AccordionContentBlock.tsx';
+        import './src/Features/SliderCustomers.tsx';
+        import './src/Features/SliderTestimonials.tsx';
+    </script>
+</head>
+
+<body>
+    <site-header
+        class="main-header"
+        data-header-fixed-top="true"
+        data-header-scroll
+        data-header-height>
+    </site-header>
+
+    <main class="main-content">
+        <slider-mousewheel-control-block></slider-mousewheel-control-block>
+
+        <slider-product></slider-product>
+        <slider-article></slider-article>
+        <accordion-content-block></accordion-content-block>
+        <slider-customers></slider-customers>
+        <slider-testimonials></slider-testimonials>
+    </main>
+
+    <site-footer
+        class="main-footer"  data-background="dark">
+    </site-footer>
+
+    <script src="./src/js/main.ts" type="module"></script>
+</body>
+
+</html>

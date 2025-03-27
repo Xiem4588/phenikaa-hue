@@ -1,0 +1,46 @@
+@use '../../../styles/sass/mixins/' as *;
+
+:root {}
+
+.filters {
+    display: block;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.filter__content {
+    .filter[data-filter-appearance='checkboxes'] & {
+        display: flex;
+        gap: var(--space-24);
+    }
+}
+
+.filter__optioncontainer {
+    .filter[data-filter-appearance='checkboxes'] & {
+        display: flex;
+        gap: var(--space-24);
+    }
+}
+
+.filter__legend {
+    .filter[data-filter-appearance='checkboxes'] & {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.filteroption {
+    .filter[data-filter-appearance='checkboxes'] & {
+        display: flex;
+        align-items: center;
+        gap: var(--space-4);
+        cursor: pointer;
+    }
+}
+
+input.filteroption__input {
+    .filter[data-filter-appearance='checkboxes'] & {
+    }
+}

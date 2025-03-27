@@ -1,0 +1,101 @@
+// Animation mixin
+
+@mixin decoration-animation(
+    $color: currentColor,
+    $height: 2px
+) {
+    transition: all .2s;
+    &::before {
+        content: '';
+        width: 0%;
+        position: absolute;
+        height: $height;
+        bottom: 0;
+        left: 0;
+        transition: all .2s;
+        background: $color;
+        border: 0;
+        display: block;
+    }
+}
+
+//
+@mixin icon-arrow-short(
+    $color: currentColor,
+    $top: 50%,
+    $rotate: 135deg,
+    $width: 8px,
+    $height: 8px,
+    $left: inherit,
+) {
+    transition: transform 0.2s;
+    &::after {
+        content: '';
+        display: block;
+        flex-shrink: 0;
+        width: $width;
+        height: $height;
+        border-top: 2px solid $color;
+        border-right: 2px solid $color;
+        position: absolute;
+        top: $top;
+        right: 0;
+        left: inherit;
+        transition: transform 0.3s;
+        transform: translateY(-50%) rotate($rotate);
+        @if($left == "left") {
+            right: inherit;
+            left: 0;
+        }
+    }
+}
+
+//
+@mixin icon-arrow-log(
+    $color: currentColor,
+    $rotate: 45deg
+) {
+    position: relative;
+    width: 32px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 14px;
+        flex-shrink: 0;
+        transform: rotate($rotate);
+        transition: all 0.2s;
+        border-top: 2px solid $color;
+        border-right: 2px solid $color;
+        width: 8px;
+        height: 8px;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        right: 14px;
+        flex-shrink: 0;
+        transition: all 0.2s;
+        background: currentcolor;
+        width: 18px;
+        height: 2px;
+    }
+}
+
+//
+@mixin visually-hidden() {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}

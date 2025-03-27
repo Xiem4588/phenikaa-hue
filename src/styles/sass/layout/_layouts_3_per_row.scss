@@ -1,0 +1,15 @@
+@use "../mixins/" as *;
+
+/*{ "key":"3-per-row", "value":"", "name":"three Per Row", "columns":3 }*/
+
+[data-layout-smart="3-per-row"] {
+    @include grid-columns($columns: 1);
+
+    @include container-mobile-medium {
+        @include grid-columns($columns: 2, $gap: var(--space-32));
+    }
+
+    @include container-desktop {
+        @include grid-columns($columns: 3, $gap: var(--space-50));
+    }
+}

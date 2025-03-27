@@ -1,0 +1,57 @@
+// This is the file where the themes are defined. The themes are defined using CSS custom properties. The themes are used to change.
+
+:root {
+    --theme-contrast-background: 0,0,0;
+    --theme-contrast-color-text: 255,255,255;
+}
+
+[data-site-theme="contrast"] {
+    color-scheme: dark;
+    --theme-background: 0,0,0;
+    --theme-background-overlay-multiplier: 1;
+    --theme-surface: 18,18,18;
+    --theme-surface-overlay-multiplier: 1;
+    --theme-primary: 255,215,0;
+    --theme-primary-overlay-multiplier: 2;
+    --theme-primary-darken-1: 230,195,0;
+    --theme-primary-darken-1-overlay-multiplier: 2;
+    --theme-secondary: 0,204,221;
+    --theme-secondary-overlay-multiplier: 2;
+    --theme-secondary-darken-1: 0,230,0;
+    --theme-secondary-darken-1-overlay-multiplier: 2;
+    --theme-accent: 255,0,255;
+    --theme-accent-overlay-multiplier: 2;
+    --theme-info: 49,170,255;
+    --theme-info-overlay-multiplier: 2;
+    --theme-warning: 255,170,0;
+    --theme-warning-overlay-multiplier: 2;
+    --theme-error: 255,0,0;
+    --theme-error-overlay-multiplier: 2;
+    --theme-success: 0,255,0;
+    --theme-success-overlay-multiplier: 2;
+    --theme-on-surface-variant: 255,255,255;
+    --theme-surface-light: 34,34,34;
+    --theme-surface-light-overlay-multiplier: 1;
+    --theme-surface-bright: 0,0,0;
+    --theme-surface-bright-overlay-multiplier: 1;
+    --theme-surface-variant: 51,51,51;
+    --theme-surface-variant-overlay-multiplier: 1;
+    --theme-on-background: 255,255,255;
+    --theme-on-surface: 255,255,255;
+    --theme-on-primary: 0,0,0;
+    --theme-on-primary-darken-1: 0,0,0;
+    --theme-on-secondary: 0,0,0;
+    --theme-on-secondary-darken-1: 0,0,0;
+    --theme-on-accent: 255,255,255;
+    --theme-on-info: 255,255,255;
+    --theme-on-warning: 0,0,0;
+    --theme-on-error: 255,255,255;
+    --theme-on-success: 0,0,0;
+    --theme-on-surface-light: 255,255,255;
+    --theme-on-surface-bright: 255,255,255;
+    --theme-kbd: 0,0,0;
+    --theme-on-kbd: 255,255,255;
+    --theme-code: 0,0,0;
+    --theme-on-code: 255,255,255;
+    --border-color: 255,255,255;
+}

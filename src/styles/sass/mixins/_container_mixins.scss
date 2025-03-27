@@ -1,0 +1,43 @@
+//To be able to use @container need to set its parent with the property container-type: inline-size;
+
+@mixin container-mobile {
+    @container (width >= 320px) {
+        @content;
+    }
+}
+
+@mixin container-mobile-medium {
+    @container (width >= 480px) {
+        @content;
+    }
+}
+
+@mixin container-tablet {
+    @container (width >= 600px) {
+        @content;
+    }
+}
+
+@mixin container-tablet-medium {
+    @container (width >= 768px) {
+        @content;
+    }
+}
+
+@mixin container-desktop {
+    @container (width >= 1024px) {
+        @content;
+    }
+}
+
+@mixin container-desktop-medium {
+    @container (width >= 1440px) {
+        @content;
+    }
+}
+
+@mixin container-desktop-large {
+    @container (width >= 1920px) {
+        @content;
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "common": {
+    "title": "",
+    "pageTitle": "{{page}} | License Management",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "done": "Done",
+    "noData": "No data",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "delete": "Delete",
+    "edit": "Edit",
+    "logout": "Logout",
+    "error": "Something went wrong.",
+    "reset": "Reset",
+    "ok": "Ok",
+    "create": "Create",
+    "none": "None",
+    "next": "Next",
+    "prev": "Previous",
+    "search": "Search",
+    "disable": "Disable",
+    "override": "Override",
+    "overwrite": "Overwrite",
+    "copyright": "© Copyright 2025. All Rights Reserved."
+  },
+  "navigation": {
+    "home": "Home",
+    "aboutUs": "About us",
+    "product": "Products",
+    "support": "Support",
+    "contact": "Contact us",
+    "news": "News"
+  }
+}

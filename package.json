@@ -1,0 +1,39 @@
+{
+  "name": "themehtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:prod": "vite build",
+    "build:sass": "sass src/styles/sass/main.scss src/styles/css/main.css",
+    "watch:sass": "sass --watch src/styles/sass/main.scss:src/styles/css/main.css",
+    "tailwindcss": "npx @tailwindcss/cli -i ./src/styles-tailwindcss/tailwindcss.scss -o ./src/styles-tailwindcss/tailwindcss.css --watch",
+    "dev": "concurrently \"npm run watch:sass\" \"npm run vite\" \"npm run build\" \"npm run tailwindcss\"",
+    "vite": "vite --open --force",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.15",
+    "@types/swiper": "^5.4.3",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.1.0",
+    "eslint": "^9.20.1",
+    "globals": "^15.15.0",
+    "sass": "^1.83.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.15",
+    "i18next": "^24.2.2",
+    "swiper": "^11.2.5",
+    "tailwindcss": "^4.0.15",
+    "vite": "^6.2.1"
+  }
+}

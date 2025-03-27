@@ -1,0 +1,19 @@
+@use '../../../styles/sass/mixins/' as *;
+
+:root {}
+
+.search-page__hero {
+    padding: var(--space-100) var(--space-16) var(--space-32);
+    position: relative;
+    z-index: 9;
+
+    @include media-tablet-medium {
+        padding: var(--space-150) var(--space-24) 0;
+    }
+}
+
+.search-page__heading {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-16);
+}

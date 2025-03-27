@@ -1,0 +1,49 @@
+// This is the file where the themes are defined. The themes are defined using CSS custom properties. The themes are used to change.
+
+:root {
+    --theme-dark-background: 51,51,51;
+    --theme-dark-color-text: 255,255,255;
+}
+
+[data-site-theme="dark"] {
+    color-scheme: dark;
+    --theme-background: 51,51,51;
+    --theme-surface: 33,33,33;
+    --theme-surface-bright: 71,71,71;
+    --theme-surface-light: 51,51,51;
+    --theme-surface-variant: 163,163,163;
+    --theme-on-surface-variant: 51,51,51;
+    --theme-primary: 33,150,243;
+    --theme-primary-darken-1: 39,124,193;
+    --theme-secondary: 51,51,51;
+    --theme-secondary-darken-1: 204,204,204;
+    --theme-error: 207,102,121;
+    --theme-info: 33,150,243;
+    --theme-success: 204,204,204;
+    --theme-warning: 255,64,129;
+    --theme-surface-variant-alt: 51,51,51;
+    --theme-tertiary: 207,102,121;
+    --theme-accent: 255,64,129;
+    --theme-quaternary: 176,209,232;
+    --theme-on-background: 255,255,255;
+    --theme-on-surface: 255,255,255;
+    --theme-on-surface-bright: 255,255,255;
+    --theme-on-surface-light: 255,255,255;
+    --theme-on-primary: 255,255,255;
+    --theme-on-primary-darken-1: 255,255,255;
+    --theme-on-secondary: 255,255,255;
+    --theme-on-secondary-darken-1: 255,255,255;
+    --theme-on-error: 255,255,255;
+    --theme-on-info: 255,255,255;
+    --theme-on-success: 255,255,255;
+    --theme-on-warning: 255,255,255;
+    --theme-on-surface-variant-alt: 255,255,255;
+    --theme-on-tertiary: 255,255,255;
+    --theme-on-accent: 255,255,255;
+    --theme-on-quaternary: 33,33,33;
+    --theme-kbd: 71,71,71;
+    --theme-on-kbd: 255,255,255;
+    --theme-code: 163,163,163;
+    --theme-on-code: 204,204,204;
+    --border-color: 255,255,255;
+}

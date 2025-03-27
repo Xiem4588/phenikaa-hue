@@ -1,0 +1,48 @@
+// Flex Layout parent
+@mixin flex-layout(
+    $gap: 24px,
+    $wrap: wrap,
+    $direction: column,
+) {
+    display: flex;
+    gap: $gap;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+}
+
+// Flex columns child
+@mixin flex-columns($flex: 1, $max-width: 100%, $offset: 0) {
+    flex: $flex;
+    max-width: $max-width;
+    margin-left: $flex-grow * $offset;
+}
+
+// Grid Layout parent
+@mixin grid-layout(
+    $columns: 1,
+    $columnGap: 24px,
+    $rowGap: 24px,
+) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    column-gap: $columnGap;
+    row-gap: $rowGap;
+}
+
+// Grid Columns child
+@mixin grid-columns(
+    $columns: 1,
+    $gap: 24px,
+    $min: 0,
+    $max: 1fr
+) {
+    display: grid;
+
+    @if $columns {
+        grid-template-columns: repeat($columns, minmax($min, $max));
+    }
+
+    @if $gap {
+        gap: $gap;
+    }
+}

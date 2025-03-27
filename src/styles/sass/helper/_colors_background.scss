@@ -1,0 +1,16 @@
+@use "../mixins/" as *;
+
+:root {
+    --hero-start-block-background-color: #1F3A71;
+}
+
+[data-background] {
+    background: rgb(var(--theme-default-background));
+    color: rgb(var(--theme-default-color-text));
+}
+
+[data-background="dark"] {
+    background: var(--hero-start-block-background-color);
+    color: rgb(var(--theme-dark-color-text));
+}
+
