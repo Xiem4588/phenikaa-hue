@@ -1,11 +1,9 @@
 
 import './styles/_list_product_block.scss';
-import './FormSearchBar'
 export default class ListProductBlock extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
-            <form-search-bar-block></form-search-bar-block>
             <div class="list-product-block">
                 <div class="list-product-block__container" data-container-width="bodytext">
                     <div class="list-product-block__wrapper" data-layout-smart="3-per-row">
@@ -13,7 +11,7 @@ export default class ListProductBlock extends HTMLElement {
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
                                     <a class="decoration-animation-none" href="/">
-                                        <img alt="image" src="https://www.epinova.se/globalassets/epinova.se/kundcase/case-postnord-letters.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=674&height=506&crop=23,0,2020,1499">
+                                        <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
@@ -29,7 +27,7 @@ export default class ListProductBlock extends HTMLElement {
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
                                     <a class="decoration-animation-none" href="/">
-                                        <img alt="image" src="https://www.epinova.se/globalassets/epinova.se/kundcase/case-postnord-letters.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=674&height=506&crop=23,0,2020,1499">
+                                        <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
@@ -45,7 +43,7 @@ export default class ListProductBlock extends HTMLElement {
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
                                     <a class="decoration-animation-none" href="/">
-                                        <img alt="image" src="https://www.epinova.se/globalassets/epinova.se/kundcase/case-postnord-letters.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=674&height=506&crop=23,0,2020,1499">
+                                        <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
@@ -61,7 +59,7 @@ export default class ListProductBlock extends HTMLElement {
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
                                     <a class="decoration-animation-none" href="/">
-                                        <img alt="image" src="https://www.epinova.se/globalassets/epinova.se/kundcase/case-postnord-letters.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=674&height=506&crop=23,0,2020,1499">
+                                        <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
@@ -77,7 +75,7 @@ export default class ListProductBlock extends HTMLElement {
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
                                     <a class="decoration-animation-none" href="/">
-                                        <img alt="image" src="https://www.epinova.se/globalassets/epinova.se/kundcase/case-postnord-letters.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=674&height=506&crop=23,0,2020,1499">
+                                        <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
@@ -93,7 +91,7 @@ export default class ListProductBlock extends HTMLElement {
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
                                     <a class="decoration-animation-none" href="/">
-                                        <img alt="image" src="https://www.epinova.se/globalassets/epinova.se/kundcase/case-postnord-letters.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=674&height=506&crop=23,0,2020,1499">
+                                        <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">

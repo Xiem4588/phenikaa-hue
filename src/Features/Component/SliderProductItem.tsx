@@ -7,7 +7,7 @@ export default class SliderProductItem extends HTMLElement {
                 <div class="slider-product-item__wrapper">
                     <div class="slider-product-item__image">
                         <a class="decoration-animation-none" href="/">
-                            <img alt="image" src="https://www.epinova.se/globalassets/epinova.se/kundcase/case-postnord-letters.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=674&height=506&crop=23,0,2020,1499">
+                            <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                         </a>
                     </div>
                     <div class="slider-product-item__content">

@@ -41,23 +41,40 @@ export default class SiteHeader extends HTMLElement {
                                             </button>
                                             <ul class="mega-menu__submenu-list" data-container-width="header-big">
                                                 <li class="mega-menu__submenu-item" data-mega-menu-submenu-item="true" aria-hidden="true">
-                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/hero-block">Hero block</a>
+                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/hero-block">Danh mục sản phẩm</a>
                                                     <div class="mega-menu__submenu-item-submenu" data-mega-menu-submenu-item-submenu="true" data-background="default">
                                                         <button type="button" class="mega-menu__submenu-item-submenu-go-back" data-button-go-back>
                                                             <span class="mega-menu__title">Main menu submenu</span>
                                                             <span class="mega-menu__close">Close</span>
                                                         </button>
                                                         <ul class="mega-menu__submenu-submenu-list">
-                                                            <li class="mega-menu__submenu-submenu-item"><a data-set-item-menu-active href="/product">Product</a></li>
-                                                            <li class="mega-menu__submenu-submenu-item"><a data-set-item-menu-active href="#">Submenu 1-1-2</a></li>
+                                                            <li class="mega-menu__submenu-submenu-item"><a data-set-item-menu-active href="/product">Sản phẩm</a></li>
                                                         </ul>
                                                     </div>
                                                 </li>
                                                 <li class="mega-menu__submenu-item" data-mega-menu-submenu-item aria-hidden="true">
-                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/teaser-layout">Teaser layout</a>
+                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/teaser-layout">Danh mục tài liệu</a>
+                                                    <div class="mega-menu__submenu-item-submenu" data-mega-menu-submenu-item-submenu="true" data-background="default">
+                                                        <button type="button" class="mega-menu__submenu-item-submenu-go-back" data-button-go-back>
+                                                            <span class="mega-menu__title">Main menu submenu</span>
+                                                            <span class="mega-menu__close">Close</span>
+                                                        </button>
+                                                        <ul class="mega-menu__submenu-submenu-list">
+                                                            <li class="mega-menu__submenu-submenu-item"><a data-set-item-menu-active href="/document">Tài liệu kỹ thuật</a></li>
+                                                        </ul>
+                                                    </div>
                                                 </li>
                                                 <li class="mega-menu__submenu-item" data-mega-menu-submenu-item aria-hidden="true">
-                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/slider-swiper">Slider swiper</a>
+                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/slider-swiper">FAQ - Câu hỏi thường gặp</a>
+                                                    <div class="mega-menu__submenu-item-submenu" data-mega-menu-submenu-item-submenu="true" data-background="default">
+                                                        <button type="button" class="mega-menu__submenu-item-submenu-go-back" data-button-go-back>
+                                                            <span class="mega-menu__title">Main menu submenu</span>
+                                                            <span class="mega-menu__close">Close</span>
+                                                        </button>
+                                                        <ul class="mega-menu__submenu-submenu-list">
+                                                            <li class="mega-menu__submenu-submenu-item"><a data-set-item-menu-active href="/faq">Câu hỏi thường gặp</a></li>
+                                                        </ul>
+                                                    </div>
                                                 </li>
                                             </ul>
                                         </div>

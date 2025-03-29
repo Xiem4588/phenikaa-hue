@@ -9,7 +9,7 @@ export default class SiteFooter extends HTMLElement {connectedCallback() {
     render() {
         this.innerHTML = `
             <footer class="text-white py-12" data-container-width="footer-big">
-                <div class="px-4 grid grid-cols-1 lg:grid-cols-3 gap-10 xl:gap-50">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 xl:gap-50">
                     <div class="flex flex-col gap-4 flex-1 order-1 lg:order-0 lg:gap-10">
                         <h2 class="text-2xl font-bold mb-auto">Liên hệ với chúng tôi</h2>
                         <p class="text-gray-300 mb-4">

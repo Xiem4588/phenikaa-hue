@@ -10,7 +10,7 @@ export default class ArticleHeroBlock extends HTMLElement {
             <div class="article-hero-block" data-article-hero-background-image="${isBackgroundImage}" data-background="${backgroundColorName}">
                 ${isBackgroundImage === 'true' ? `
                     <div class="article-hero-block__image">
-                        <img alt="image" src="https://integration.epinova.se/globalassets/epinova.se/bildbank/detaljbilder/epinova-laptop-figma-svkom-retusch-2000px.jpg?mode=crop&amp;scale=both&amp;format=webp&amp;f.sharpen=25&amp;down.filter=robidoux_sharp&amp;up.filter=robidoux_sharp&amp;">
+                        <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                     </div>
                 ` : ''}
                 <div class="article-hero-block__content">
