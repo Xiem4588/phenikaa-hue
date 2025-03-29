@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-site-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phenikaa | FAQ - Câu hỏi thường gặp</title>
+    <link rel="stylesheet" href="src/styles/css/main.css">
+    <link rel="stylesheet" href="src/styles-tailwindcss/tailwindcss.css">
+
+    <script type="module">
+        import './src/Features/SiteHeader.tsx';
+        import './src/Features/SiteFooter.tsx';
+        import './src/Features/HeroBlock.tsx';
+        import './src/Features/FormSearchBar.tsx';
+        import './src/Features/DownloadListDoc.tsx';
+        
+    </script>
+</head>
+
+<body>
+    <site-header
+        class="main-header"
+        data-header-fixed-top="true"
+        data-header-scroll
+        data-header-height>
+    </site-header>
+
+    <main class="main-content">
+        <hero-block></hero-block>
+        <div class="py-10 px-4 lg:py-25 md:flex md:gap-20" data-container-width="bodytext">
+            <div class="md:w-1/2">
+                <h2 class="h1 mb-4">Câu hỏi thường gặp</h2>
+                <div class="flex flex-col gap-5 lg:gap-8">
+                    <div class="flex flex-col gap-5 border-b pb-5 mb-5">
+                        <h3 class="font-semibold text-gray-700">Nhựa polyester không no là gì?</h3>
+                        <p class="text-gray-600 text-sm">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
+                    </div>
+                    <div class="flex flex-col gap-5 border-b pb-5 mb-5">
+                        <h3 class="font-semibold text-gray-700">Nhựa polyester không no của Phenikaa Chemical có gì đặc biệt?</h3>
+                        <p class="text-gray-600 text-sm">Sản phẩm của chúng tôi đạt tiêu chuẩn quốc tế, bền bỉ, dễ sử dụng và thân thiện với môi trường.</p>
+                    </div>
+                    <div class="flex flex-col gap-5 border-b pb-5 mb-5">
+                        <h3 class="font-semibold text-gray-700">Làm thế nào để lựa chọn loại nhựa phù hợp với ứng dụng của tôi?</h3>
+                        <p class="text-gray-600 text-sm">Vui lòng tham khảo tài liệu kỹ thuật hoặc liên hệ trực tiếp với đội ngũ hỗ trợ kỹ thuật.</p>
+                    </div>
+                    <div class="flex flex-col gap-5 border-b pb-5 mb-5">
+                        <h3 class="font-semibold text-gray-700">Làm sao để mua hàng hoặc trở thành đại lý?</h3>
+                        <p class="text-gray-600 text-sm">Bạn có thể thực hiện đặt hàng hoặc liên hệ kinh doanh trực tiếp qua form liên hệ.</p>
+                    </div>
+                    <div class="flex flex-col gap-5 border-b pb-5 mb-5">
+                        <h3 class="font-semibold text-gray-700">Phenikaa Chemical có hỗ trợ kỹ thuật trực tuyến không?</h3>
+                        <p class="text-gray-600 text-sm">Có, bạn có thể gửi yêu cầu qua email hoặc hotline để được tư vấn miễn phí.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 flex justify-center items-center">
+                <img alt="image" src="./src/assets/images/image-item-2.png">
+            </div>
+        </div>
+        <div class="p-4 mb-20" data-container-width="bodytext">
+            <div class="bg-gray-100 py-10 px-4 md:py-25 rounded-2xl text-center shadow-lg text-white">
+                <h2 class="text-lg font-semibold text-gray-800">
+                    Không tìm thấy câu trả lời - cần hỗ trợ kỹ thuật
+                </h2>
+                <a href="/lien-he" class="bg-orange-500 px-4 py-2 rounded-lg mt-4 shadow-md hover:bg-orange-600 transition inline-block">
+                    Hãy gửi yêu cầu của bạn tại Form
+                </a>                
+                <p class="text-gray-600 text-sm mt-4">Hoặc liên hệ hoặc liên hệ qua</p>
+                <p class="text-gray-700 text-sm font-medium">
+                    Hotline: 1800-XXX-XXX - Email: support@phenikachemical.com
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <site-footer
+        class="main-footer"  data-background="default">
+    </site-footer>
+
+    <script src="./src/js/main.ts" type="module"></script>
+</body>
+
+</html>
