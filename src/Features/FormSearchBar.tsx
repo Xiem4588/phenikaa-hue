@@ -6,7 +6,7 @@ export default class FormSearchBar extends HTMLElement {
             <div class="flex flex-col md:flex-row items-center justify-center gap-2 px-4">
                 <div class="w-full md:w-auto">
                     <div class="relative">
-                        <select class="w-full appearance-none rounded-md bg-white py-2 pr-10 pl-3 text-base text-gray-900 border border-gray-300 outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
+                        <select class="w-full appearance-none rounded-lgd bg-white py-2 pr-10 pl-3 text-base text-gray-900 border border-gray-300 outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
                             <option>Bộ lọc</option>
                             <option value="dang-bot">DẠNG BỘT</option>
                             <option value="dang-hat">DẠNG HẠT</option>
@@ -17,7 +17,7 @@ export default class FormSearchBar extends HTMLElement {
                     </div>
                 </div>
 
-                <div class="flex items-center w-full md:w-auto border border-gray-300 rounded-md overflow-hidden">
+                <div class="flex items-center w-full md:w-auto border border-gray-300 rounded-lgd overflow-hidden">
                     <input
                         type="text"
                         placeholder="Tìm kiếm sản phẩm"
@@ -32,7 +32,7 @@ export default class FormSearchBar extends HTMLElement {
                 </div>
 
                 <!-- Nút tìm kiếm -->
-                <button class="w-full md:w-auto bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition">
+                <button class="w-full md:w-auto bg-orange-500 text-white px-4 py-2 rounded-lgd hover:bg-orange-600 transition">
                     Tìm kiếm
                 </button>
             </div>

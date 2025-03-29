@@ -12,8 +12,8 @@ export default class AccordionContentBlock extends HTMLElement {
                     <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                 </div>
 
-                <div class="accordion-items-wrapper">
-                    <div class="accordion-item py-8" aria-hidden="false">
+                <div class="accordion-items-wrapper flex flex-col gap-4">
+                    <div class="accordion-item rounded-lg bg-white p-4 shadow-md outline outline-black/2" aria-hidden="true">
                         <div class="flex items-center gap-x-4 py-2" data-accordion-button>
                             <svg width="30" height="30" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="iconspace_Marketing_25px">
@@ -22,9 +22,9 @@ export default class AccordionContentBlock extends HTMLElement {
                             </svg>
                             <div class="h4">Công nghệ</div>
                         </div>
-                        <div class="item-text small text-gray-500 ps-17">Free version contains a limited amount of pre-designed blocks in comparison to the Pro version with more than 100 blocks.</div>
+                        <div class="item-text small text-gray-500 ps-12">Free version contains a limited amount of pre-designed blocks in comparison to the Pro version with more than 100 blocks.</div>
                     </div>
-                    <div class="accordion-item py-8" aria-hidden="false">
+                    <div class="accordion-item rounded-lg bg-white p-4 shadow-md outline outline-black/2" aria-hidden="false">
                         <div class="flex items-center gap-x-4 py-2" data-accordion-button>
                             <svg width="30" height="30" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="iconspace_Monitor_25px">
@@ -35,9 +35,9 @@ export default class AccordionContentBlock extends HTMLElement {
 
                             <div class="h4">Dây chuyền</div>
                         </div>
-                        <div class="item-text small text-gray-500 ps-17">Free version contains a limited amount of pre-designed blocks in comparison to the Pro version with more than 100 blocks.</div>
+                        <div class="item-text small text-gray-500 ps-12">Free version contains a limited amount of pre-designed blocks in comparison to the Pro version with more than 100 blocks.</div>
                     </div>
-                    <div class="accordion-item py-8" aria-hidden="false">
+                    <div class="accordion-item rounded-lg bg-white p-4 shadow-md outline outline-black/2" aria-hidden="false">
                         <div class="flex items-center gap-x-4 py-2" data-accordion-button>
                             <svg width="30" height="30" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="iconspace_Note 2_25px">
@@ -49,16 +49,16 @@ export default class AccordionContentBlock extends HTMLElement {
                             </svg>
                             <div class="h4">Độ trắng cao</div>
                         </div>
-                        <div class="item-text small text-gray-500 ps-17">Free version contains a limited amount of pre-designed blocks in comparison to the Pro version with more than 100 blocks.</div>
+                        <div class="item-text small text-gray-500 ps-12">Free version contains a limited amount of pre-designed blocks in comparison to the Pro version with more than 100 blocks.</div>
                     </div>
-                    <div class="accordion-item py-8" aria-hidden="false">
+                    <div class="accordion-item rounded-lg bg-white p-4 shadow-md outline outline-black/2" aria-hidden="false">
                         <div class="flex items-center gap-x-4 py-2" data-accordion-button>
                             <svg width="30" height="30" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22.1875 21.625H20.5V3.0625C20.5 2.91332 20.4407 2.77024 20.3352 2.66475C20.2298 2.55926 20.0867 2.5 19.9375 2.5C19.7883 2.5 19.6452 2.55926 19.5398 2.66475C19.4343 2.77024 19.375 2.91332 19.375 3.0625V21.625H16V7.5625C16 7.41332 15.9407 7.27024 15.8352 7.16475C15.7298 7.05926 15.5867 7 15.4375 7C15.2883 7 15.1452 7.05926 15.0398 7.16475C14.9343 7.27024 14.875 7.41332 14.875 7.5625V21.625H11.5V12.0625C11.5 11.9133 11.4407 11.7702 11.3352 11.6648C11.2298 11.5593 11.0867 11.5 10.9375 11.5C10.7883 11.5 10.6452 11.5593 10.5398 11.6648C10.4343 11.7702 10.375 11.9133 10.375 12.0625V21.625H7V16.5625C7 16.4133 6.94074 16.2702 6.83525 16.1648C6.72976 16.0593 6.58668 16 6.4375 16C6.28832 16 6.14524 16.0593 6.03975 16.1648C5.93426 16.2702 5.875 16.4133 5.875 16.5625V21.625H1.375V0.8125C1.375 0.663316 1.31574 0.520242 1.21025 0.414753C1.10476 0.309263 0.961684 0.25 0.8125 0.25C0.663316 0.25 0.520242 0.309263 0.414753 0.414753C0.309263 0.520242 0.25 0.663316 0.25 0.8125V22.1875C0.25 22.3367 0.309263 22.4798 0.414753 22.5852C0.520242 22.6907 0.663316 22.75 0.8125 22.75H22.1875C22.3367 22.75 22.4798 22.6907 22.5852 22.5852C22.6907 22.4798 22.75 22.3367 22.75 22.1875C22.75 22.0383 22.6907 21.8952 22.5852 21.7898C22.4798 21.6843 22.3367 21.625 22.1875 21.625Z" fill="#333333"/>
                             </svg>
                             <div class="h4">Công nghệ quản lý chất lượng chính xác</div>
                         </div>
-                        <div class="item-text small text-gray-500 ps-17">Free version contains a limited amount of pre-designed blocks in comparison to the Pro version with more than 100 blocks.</div>
+                        <div class="item-text small text-gray-500 ps-12">Free version contains a limited amount of pre-designed blocks in comparison to the Pro version with more than 100 blocks.</div>
                     </div>
                 </div>
             </div>

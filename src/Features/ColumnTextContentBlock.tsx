@@ -14,7 +14,7 @@ export default class ColumnTextContentBlock extends HTMLElement {
                     </p>
                 </div>
                 <div class="column-text-content-block__wrapper" data-layout-smart="2-per-row">
-                    <div class="flex flex-col gap-8 rounded-xl bg-white p-12 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+                    <div class="flex flex-col gap-8 rounded-lg bg-white p-12 shadow-lg outline outline-black/2 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
                         <div class="column-text-content-block__heading">
                             <h2 class="column-text-content-block__heading-title">Thông tin kỹ thuật</h2>
                         </div>
@@ -23,7 +23,7 @@ export default class ColumnTextContentBlock extends HTMLElement {
                             <img alt="image" src="https://www.epinova.se/contentassets/84a377d2dc0c41b193e39ceb38fb534f/webpage.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=634&height=423">
                         </div>
                     </div>
-                    <div class="flex flex-col gap-8 rounded-xl bg-white p-12 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+                    <div class="flex flex-col gap-8 rounded-lg bg-white p-12 shadow-lg outline outline-black/2 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
                         <div class="column-text-content-block__heading">
                             <h2 class="column-text-content-block__heading-title">Quy cách đóng gói</h2>
                         </div>

@@ -217,7 +217,7 @@ h3, .h3 {
 }
 @media (width >= 1024px) {
   h3, .h3 {
-    font-size: var(--typography-bodytext-3xl);
+    font-size: var(--typography-bodytext-2xl);
   }
 }
 

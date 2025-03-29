@@ -18,7 +18,7 @@ export default class SliderTestimonials extends HTMLElement {
                     <div class="swiper" data-slider-testimonials>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide p-6">
-                                <div class="flex flex-col gap-8 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+                                <div class="flex flex-col gap-8 rounded-lg bg-white p-6 shadow-lg outline outline-black/2">
                                     <p class="small text-gray-500">
                                         My busy schedule leaves little, if any, time for blogging and social media. 
                                         The Lorem Ipsum Company has been a huge part of helping me grow my business through organic search and content marketing.
@@ -35,7 +35,7 @@ export default class SliderTestimonials extends HTMLElement {
                                 </div>
                             </div>
                             <div class="swiper-slide p-6">
-                                <div class="flex flex-col gap-8 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+                                <div class="flex flex-col gap-8 rounded-lg bg-white p-6 shadow-lg outline outline-black/2">
                                     <p class="small text-gray-500">
                                         My busy schedule leaves little, if any, time for blogging and social media. 
                                         The Lorem Ipsum Company has been a huge part of helping me grow my business through organic search and content marketing.
@@ -52,7 +52,7 @@ export default class SliderTestimonials extends HTMLElement {
                                 </div>
                             </div>
                             <div class="swiper-slide p-6">
-                                <div class="flex flex-col gap-8 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+                                <div class="flex flex-col gap-8 rounded-lg bg-white p-6 shadow-lg outline outline-black/2">
                                     <p class="small text-gray-500">
                                         My busy schedule leaves little, if any, time for blogging and social media. 
                                         The Lorem Ipsum Company has been a huge part of helping me grow my business through organic search and content marketing.
