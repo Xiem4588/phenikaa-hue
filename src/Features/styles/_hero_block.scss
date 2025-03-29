@@ -111,16 +111,16 @@
 }
 
 .hero-block__preamble-text {
-    font-size: var(--typography-preamble-s);
+    font-size: var(--typography-bodytext-s);
     line-height: 1.5;
 
     @include media-tablet-medium {
         grid-column: 2 / 4;
-        font-size: var(--typography-preamble-l);
+        font-size: var(--typography-bodytext-l);
     }
 
     @include media-desktop-medium {
-        font-size: var(--typography-preamble-2xl);
+        font-size: var(--typography-bodytext-2xl);
     }
 }
 

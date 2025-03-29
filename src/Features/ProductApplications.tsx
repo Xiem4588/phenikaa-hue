@@ -13,7 +13,7 @@ export default class ProductApplications extends HTMLElement {
                         </h2>
                     </div>
                     <div class="product-applications-block__wrapper" data-layout-smart="3-per-row">
-                        <div class="product-applications-item" data-teaser-base-background="true" data-teaser-base-layout="grid">
+                        <div class="product-applications-item" data-background-item="true" data-teaser-base-layout="grid">
                             <div class="product-applications-item__wrapper">
                                 <div class="product-applications-item__image">
                                     <a class="decoration-animation-none" href="/">
@@ -32,7 +32,7 @@ export default class ProductApplications extends HTMLElement {
                                 </div>
                             </div>
                         </div>
-                        <div class="product-applications-item" data-teaser-base-background="true" data-teaser-base-layout="grid">
+                        <div class="product-applications-item" data-background-item="true" data-teaser-base-layout="grid">
                             <div class="product-applications-item__wrapper">
                                 <div class="product-applications-item__image">
                                     <a class="decoration-animation-none" href="/">
@@ -51,7 +51,7 @@ export default class ProductApplications extends HTMLElement {
                                 </div>
                             </div>
                         </div>
-                        <div class="product-applications-item" data-teaser-base-background="true" data-teaser-base-layout="grid">
+                        <div class="product-applications-item" data-background-item="true" data-teaser-base-layout="grid">
                             <div class="product-applications-item__wrapper">
                                 <div class="product-applications-item__image">
                                     <a class="decoration-animation-none" href="/">

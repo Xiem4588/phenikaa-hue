@@ -108,21 +108,21 @@
 .article-hero-block__preamble {
     @include media-desktop {
         grid-column: span 2;
-        font-size: var(--typography-preamble-l);
+        font-size: var(--typography-bodytext-l);
     }
 }
 
 .article-hero-block__preamble-text {
-    font-size: var(--typography-preamble-s);
+    font-size: var(--typography-bodytext-s);
     line-height: 1.5;
 
     @include media-tablet-medium {
         grid-column: 1 / 3;
-        font-size: var(--typography-preamble-l);
+        font-size: var(--typography-bodytext-l);
     }
 
     @include media-desktop-medium {
-        font-size: var(--typography-preamble-2xl);
+        font-size: var(--typography-bodytext-2xl);
     }
 }
 

@@ -8,10 +8,10 @@ export default class SliderHeroProductBanner extends HTMLElement {
                 <div class="swiper mySwiper2" data-slide-product-banner-large>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                            <img src="./src/assets/images/epinova-kontorsarbete-ove-emil.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                            <img src="./src/assets/images/start-hero-banner.jpg" />
                         </div>
                     </div>
                 </div>

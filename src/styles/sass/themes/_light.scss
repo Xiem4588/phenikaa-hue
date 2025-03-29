@@ -47,3 +47,9 @@
     --theme-on-code: 0,0,0;
     --border-color: 0,0,0;
 }
+
+[data-background-item="true"] {
+    background: rgb(var(--theme-background), 1);
+    box-shadow: 0 4px 4px rgb(var(--theme-on-background), 0.1);
+
+}

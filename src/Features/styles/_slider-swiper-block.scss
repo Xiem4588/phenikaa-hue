@@ -49,7 +49,7 @@
         justify-content: center;
         align-items: center;
         font-weight: 500;
-        font-size: var(--typography-heading-l);
+        font-size: var(--typography-bodytext-3xl);
         line-height: 150%;
         cursor: pointer;
 
@@ -104,7 +104,7 @@
     }
 
     .swiper {
-        padding-top: var(--space-80);
+        padding: var(--space-80) var(--space-8) var(--space-8);
     }
     
     .slider-product-grid,

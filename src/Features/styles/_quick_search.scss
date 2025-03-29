@@ -58,7 +58,7 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    border: 1px solid currentColor;
+    border: 1px solid rgb(var(--border-color), 0.2);
     padding: var(--space-8);
 
     @include media-desktop-small {
@@ -87,7 +87,7 @@
         padding: var(--space-16) var(--space-32);
         color: currentColor;
         text-transform: capitalize;
-        font-size: var(--typography-preamble-l);
+        font-size: var(--typography-bodytext-l);
         transition: all 0.3s;
         background: none;
 

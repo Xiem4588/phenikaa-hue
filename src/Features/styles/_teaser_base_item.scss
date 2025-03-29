@@ -7,10 +7,6 @@
     height: 100%;
 }
 
-[data-teaser-base-background="true"] {
-    background: rgb(var(--theme-on-background), 0.03);
-}
-
 .teaser-base-item__wrapper {
     @include flex-layout($direction: column, $gap: 0);
     height: 100%;

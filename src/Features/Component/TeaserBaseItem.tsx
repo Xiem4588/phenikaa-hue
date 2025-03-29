@@ -9,7 +9,7 @@ export default class TeaserBaseItem extends HTMLElement {
         const layoutStand = this.getAttribute('set-teaser-layout-image-stand');
 
         this.innerHTML = `
-            <div class="teaser-base-item" data-teaser-base-background="${isBackgroundItem}" data-teaser-base-layout="${layoutItem}" data-teaser-base-layout-image-stand="${layoutStand}">
+            <div class="teaser-base-item" data-background-item="${isBackgroundItem}" data-teaser-base-layout="${layoutItem}" data-teaser-base-layout-image-stand="${layoutStand}">
                 <div class="teaser-base-item__wrapper">
                     <div class="teaser-base-item__image">
                         <a class="decoration-animation-none" href="/">

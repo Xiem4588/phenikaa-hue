@@ -2,12 +2,8 @@ import '../styles/_slider_product_item.scss';
 
 export default class SliderProductItem extends HTMLElement {
     connectedCallback() {
-        const layoutItem = this.getAttribute('set-teaser-layout');
-        const isBackgroundItem = this.getAttribute('set-teaser-background');
-        const layoutStand = this.getAttribute('set-teaser-layout-image-stand');
-
         this.innerHTML = `
-            <div class="slider-product-item" data-teaser-base-background="${isBackgroundItem}" data-teaser-base-layout="${layoutItem}" data-teaser-base-layout-image-stand="${layoutStand}">
+            <div class="slider-product-item" data-background-item="true" data-teaser-base-layout="grid" data-teaser-base-layout-image-stand="left">
                 <div class="slider-product-item__wrapper">
                     <div class="slider-product-item__image">
                         <a class="decoration-animation-none" href="/">

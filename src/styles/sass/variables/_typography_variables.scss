@@ -20,30 +20,14 @@
     --opacity-1: 1;
 
     // Body text
-    --typography-bodytext-2xl: 2.4rem;
-    --typography-bodytext-xl: 2rem;
-    --typography-bodytext-l: 1.8rem;
-    --typography-bodytext-m: 1.6rem;
-    --typography-bodytext-s: 1.4rem;
-    --typography-bodytext-xs: 1.2rem;
-    --typography-bodytext-2xs: 1rem;
-
-    // Preamble
-    --typography-preamble-2xl: 2.4rem;
-    --typography-preamble-xl: 2rem;
-    --typography-preamble-l: 1.8rem;
-    --typography-preamble-m: 1.6rem;
-    --typography-preamble-s: 1.4rem;
-    --typography-preamble-xs: 1.2rem;
-    --typography-preamble-2xs: 1rem;
-
-    // Heading
-    --typography-heading-2xl: 4.8rem;
-    --typography-heading-xl: 3rem;
-    --typography-heading-l: 2.6rem;
-    --typography-heading-m: 2rem;
-    --typography-heading-s: 1.8rem;
-    --typography-heading-xs: 1.6rem;
-    --typography-heading-2xs: 1.4rem;
-
+    --typography-bodytext-5xl: calc(4.8rem * 0.625);
+    --typography-bodytext-4xl: calc(3rem * 0.625);
+    --typography-bodytext-3xl: calc(2.6rem * 0.625);
+    --typography-bodytext-2xl: calc(2.4rem * 0.625);
+    --typography-bodytext-xl: calc(2rem * 0.625);
+    --typography-bodytext-l: calc(1.8rem * 0.625);
+    --typography-bodytext-m: calc(1.6rem * 0.625);
+    --typography-bodytext-s: calc(1.4rem * 0.625);
+    --typography-bodytext-xs: calc(1.2rem * 0.625);
+    --typography-bodytext-2xs: calc(1rem * 0.625);
 }

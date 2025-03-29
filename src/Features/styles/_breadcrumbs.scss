@@ -11,7 +11,7 @@
     span {
         @include media-tablet-medium {
             color: currentColor;
-            font-size: var(--typography-preamble-l);
+            font-size: var(--typography-bodytext-l);
         }
     }
 
@@ -22,7 +22,7 @@
     &[data-breadcrumbs-size="small"] {
         a,
         span {
-            font-size: var(--typography-preamble-s);
+            font-size: var(--typography-bodytext-s);
         }
     }
 }

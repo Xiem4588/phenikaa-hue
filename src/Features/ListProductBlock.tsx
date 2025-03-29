@@ -1,9 +1,11 @@
 
 import './styles/_list_product_block.scss';
+import './FormSearchBar'
 export default class ListProductBlock extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
+            <form-search-bar-block></form-search-bar-block>
             <div class="list-product-block">
                 <div class="list-product-block__container" data-container-width="bodytext">
                     <div class="list-product-block__wrapper" data-layout-smart="3-per-row">
