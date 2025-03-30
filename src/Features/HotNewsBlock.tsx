@@ -4,7 +4,7 @@ export default class HotNewsBlock extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
-            <div class="grid md:grid-cols-4 gap-4 my-10">
+            <div class="grid md:grid-cols-4 gap-4 my-10" data-container-width="site">
                 <div class="md:col-span-3">
                     <div class="hot-news-block">
                         <div class="hot-news-block__image">

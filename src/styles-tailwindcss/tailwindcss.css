@@ -575,6 +575,9 @@
       margin-inline-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-x-reverse)));
     }
   }
+  .gap-y-20 {
+    row-gap: calc(var(--spacing) * 20);
+  }
   .overflow-hidden {
     overflow: hidden;
   }
@@ -660,6 +663,9 @@
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
+  }
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
@@ -671,6 +677,9 @@
   }
   .py-14 {
     padding-block: calc(var(--spacing) * 14);
+  }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
   }
   .ps-12 {
     padding-inline-start: calc(var(--spacing) * 12);
@@ -1121,10 +1130,20 @@
       gap: calc(var(--spacing) * 20);
     }
   }
+  .lg\:gap-y-20 {
+    @media (width >= 64rem) {
+      row-gap: calc(var(--spacing) * 20);
+    }
+  }
   .lg\:border-r {
     @media (width >= 64rem) {
       border-right-style: var(--tw-border-style);
       border-right-width: 1px;
+    }
+  }
+  .lg\:py-10 {
+    @media (width >= 64rem) {
+      padding-block: calc(var(--spacing) * 10);
     }
   }
   .lg\:py-25 {

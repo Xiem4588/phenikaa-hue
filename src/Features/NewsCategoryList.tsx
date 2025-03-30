@@ -1,10 +1,10 @@
 import './styles/_news_category_block.scss';
 
-export default class NewsCategoryBlock extends HTMLElement {
+export default class NewsCategoryList extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
-            <div class="grid lg:grid-cols-5 xl:grid-cols-3 gap-10 p-5" data-container-width="bodytext">
+            <div class="grid lg:grid-cols-5 xl:grid-cols-3 gap-10 p-5" data-container-width="site">
                 <div class="lg:col-span-3 xl:col-span-2 flex flex-col gap-10">
                     <div class="flex flex-col gap-2">
                         <h2 class="font-bold">Mới nhất</h2>
@@ -155,4 +155,4 @@ export default class NewsCategoryBlock extends HTMLElement {
     }
 }
 
-customElements.define('news-category-block', NewsCategoryBlock);
+customElements.define('news-category-list', NewsCategoryList);
