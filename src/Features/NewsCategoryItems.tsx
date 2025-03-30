@@ -4,7 +4,7 @@ export default class NewsCategoryItems extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
-            <div class="grid md:grid-cols-3 gap-10 lg:gap-y-20 py-5 lg:py-10 container-type" data-container-width="site">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-y-20 p-5 lg:py-10 container-type" data-container-width="site">
                 <div class="teaser-base-item">
                     <div class="teaser-base-item__wrapper">
                         <div class="teaser-base-item__image">
