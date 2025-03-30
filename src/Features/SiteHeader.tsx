@@ -96,10 +96,13 @@ export default class SiteHeader extends HTMLElement {
                                             </button>
                                             <ul class="mega-menu__submenu-list" data-container-width="header-big">
                                                 <li class="mega-menu__submenu-item">
-                                                    <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="/news">Tất cả tin tức</a>
+                                                    <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="/news">Tất cả tin tức - Category</a>
                                                 </li>
                                                 <li class="mega-menu__submenu-item">
-                                                    <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="/news-category">Tin tức - category</a>
+                                                    <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="/news-category">Tin tức - Category item</a>
+                                                </li>
+                                                <li class="mega-menu__submenu-item">
+                                                    <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="/news-detail">Tin tức - Detail</a>
                                                 </li>
                                             </ul>
                                         </div>

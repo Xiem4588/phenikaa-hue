@@ -65,7 +65,6 @@ img {
     @include media-desktop {}
 }
 
-small,
 .small {
     line-height: 1.5;
     font-size: var(--typography-bodytext-s);
@@ -80,7 +79,7 @@ small,
     @include media-desktop {}
 }
 
-p, .text {
+.text {
     line-height: 1.5;
     font-size: var(--typography-bodytext-m);
 
@@ -89,7 +88,6 @@ p, .text {
     }
 }
 
-time,
 .time {
     line-height: 1.5;
     font-size: var(--typography-bodytext-xs);

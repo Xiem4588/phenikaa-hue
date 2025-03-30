@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-site-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phenikaa | Tin tức</title>
+    <link rel="stylesheet" href="src/styles/css/main.css">
+    <link rel="stylesheet" href="src/styles-tailwindcss/tailwindcss.css">
+
+    <script type="module">
+        import './src/Features/SiteHeader.tsx';
+        import './src/Features/SiteFooter.tsx';
+        import './src/Features/HeroBlock.tsx';
+        import './src/Features/NewsCategoryItems.tsx';
+        
+    </script>
+</head>
+
+<body>
+    <site-header
+        class="main-header"
+        data-header-fixed-top="true"
+        data-header-scroll
+        data-header-height>
+    </site-header>
+
+    <main class="main-content">
+        <hero-block></hero-block>
+
+        <div class="flex flex-col p-5 py-10 gap-5" data-container-width="site">
+            <div class="mb-5"><img alt="image" src="./src/assets/images/start-hero-banner.jpg"></div>
+            <h1>Nhựa là gì? Những điều bạn cần biết về nhựa</h1>
+            <p class="text-lg">14/02/2024</p>
+            <p class="text-2xl">Tác giả: Nguyễn Văn A</p>
+            <p class="text-xl text-xl/9">
+                Thuật ngữ "nhựa" có nguồn gốc từ tiếng Hy Lạp "Plastikos", có nghĩa là hành động đúc. Vật liệu bao gồm các hợp chất hydro và cacbon, được gọi là hydrocacbon, đóng vai trò là khối sắp xếp cơ bản cho các phân tử polyme dài. Những khối này, còn được gọi là monome, liên kết với nhau để tạo thành chuỗi carbon rộng lớn hay còn gọi là polyme.
+                <br>
+                Nhựa được định nghĩa là một chất kết hợp thành phần của một chất hữu cơ có trọng lượng phân tử đáng kể. Nó còn được phân loại theo các polyme bao gồm các chuỗi nguyên tử carbon dài.
+                <br>
+                Các nguyên tử carbon này được liên kết với nhau và tạo ra các cấu trúc giống như chuỗi mở rộng trong các phân tử.
+                <br>
+                Việc phát hiện ra nhựa là do nhà hóa học nổi tiếng người Đức Christian Schonbein thực hiện vào năm 1846. Điều thú vị là nhựa thực sự được phát hiện một cách tình cờ. Khi Christian đang tiến hành các thí nghiệm trong nhà bếp của mình thì vô tình làm đổ hỗn hợp chứa axit nitric và axit sunfuric. Để làm sạch dung dịch này, ông dùng một miếng vải và đặt nó lên bếp sau khi lau sạch vết tràn. Theo thời gian, ông nhận thấy rằng tấm vải đã biến mất hoàn toàn - chính từ sự cố này mà nhựa đã được phát hiện.
+            </p>
+        </div>
+        <div class="flex flex-col p-5" data-container-width="site"><hr></div>
+        <div class="flex flex-col p-5" data-container-width="site">
+            <h2>Tin tức khác</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-y-20 lg:py-10 container-type">
+                <div class="teaser-base-item">
+                    <div class="teaser-base-item__wrapper">
+                        <div class="teaser-base-item__image">
+                            <a class="decoration-animation-none" href="/">
+                                <img alt="image" src="./src/assets/images/image-item-6.png">
+                            </a>
+                        </div>
+                        <div class="teaser-base-item__content">
+                            <a class="teaser-base-item__content-text decoration-animation-none" href="/">
+                                <div class="teaser-base-item__heading">
+                                    <h3 class="teaser-base-item__title">Tin tức 1</h3>
+                                </div>
+                                <div class="teaser-base-item__time">
+                                    <time class="teaser-base-item__date">14/02/2024</time>
+                                </div>
+                                <div class="teaser-base-item__preamble">
+                                    <p class="teaser-base-item__preamble-text">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="teaser-base-item">
+                    <div class="teaser-base-item__wrapper">
+                        <div class="teaser-base-item__image">
+                            <a class="decoration-animation-none" href="/">
+                                <img alt="image" src="./src/assets/images/image-item-6.png">
+                            </a>
+                        </div>
+                        <div class="teaser-base-item__content">
+                            <a class="teaser-base-item__content-text decoration-animation-none" href="/">
+                                <div class="teaser-base-item__heading">
+                                    <h3 class="teaser-base-item__title">Tin tức 1</h3>
+                                </div>
+                                <div class="teaser-base-item__time">
+                                    <time class="teaser-base-item__date">14/02/2024</time>
+                                </div>
+                                <div class="teaser-base-item__preamble">
+                                    <p class="teaser-base-item__preamble-text">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="teaser-base-item">
+                    <div class="teaser-base-item__wrapper">
+                        <div class="teaser-base-item__image">
+                            <a class="decoration-animation-none" href="/">
+                                <img alt="image" src="./src/assets/images/image-item-6.png">
+                            </a>
+                        </div>
+                        <div class="teaser-base-item__content">
+                            <a class="teaser-base-item__content-text decoration-animation-none" href="/">
+                                <div class="teaser-base-item__heading">
+                                    <h3 class="teaser-base-item__title">Tin tức 1</h3>
+                                </div>
+                                <div class="teaser-base-item__time">
+                                    <time class="teaser-base-item__date">14/02/2024</time>
+                                </div>
+                                <div class="teaser-base-item__preamble">
+                                    <p class="teaser-base-item__preamble-text">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <site-footer
+        class="main-footer"  data-background="default">
+    </site-footer>
+
+    <script src="./src/js/main.ts" type="module"></script>
+</body>
+
+</html>
