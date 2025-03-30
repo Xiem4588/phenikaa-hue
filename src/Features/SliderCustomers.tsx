@@ -6,7 +6,7 @@ export default class SliderCustomersBlock extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
-            <div class="slider-customers-block" data-background="default">
+            <div class="slider-customers-block container-type" data-background="default">
                 <div class="slider-customers-block__container" data-container-width="bodytext">
                     <div class="slider-customers-block__heading text-center">
                         <h2 class="slider-customers-block__title">Khách hàng tiêu biểu</h2>

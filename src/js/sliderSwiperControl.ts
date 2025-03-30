@@ -104,6 +104,25 @@ const sliderCustomersBlock = new Swiper("[data-slider-customers]", {
   },
 });
 
+const sliderSectorBlock = new Swiper("[data-slider-sector]", {
+  modules: [Navigation],
+  slidesPerView: 1,
+  spaceBetween: 24,
+  navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    }
+  },
+});
 
 const sliderTestimonialsBlock = new Swiper("[data-slider-testimonials]", {
   modules: [Navigation],
@@ -121,4 +140,4 @@ const sliderTestimonialsBlock = new Swiper("[data-slider-testimonials]", {
   },
 });
 
-export { sliderCubeControlBlock, sliderHeroProductBannerThumb, sliderHeroProductBannerLarge, sliderArticleBlock, sliderProductBlock, sliderCustomersBlock, sliderTestimonialsBlock };
+export { sliderCubeControlBlock, sliderHeroProductBannerThumb, sliderHeroProductBannerLarge, sliderArticleBlock, sliderProductBlock, sliderCustomersBlock, sliderTestimonialsBlock, sliderSectorBlock };
