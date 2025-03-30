@@ -152,3 +152,55 @@ styles for custom quote and checklist elements.*/
         }
     }
 }
+
+
+.border-b-gradient {
+    border-bottom: 3px solid;
+    border-image-source: linear-gradient(92.78deg, #F22540 0%, #FF7900 100%);
+    border-image-slice: 1;
+}
+
+.bg-gradient {
+    background: linear-gradient(92.78deg, #F22540 0%, #FF7900 100%);
+}
+
+.tex-gradient {
+    background: linear-gradient(92.78deg, #F22540 0%, #FF7900 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.after-arrow-r {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &:after {
+        content: "";
+        display: block;
+        flex-shrink: 0;
+        width: 24px;
+        height: 24px;
+        border-top: 3px solid currentColor;
+        border-right: 3px solid currentColor;
+        transition: transform 0.3s;
+        transform: translateX(-5px) rotate(45deg);
+    }
+}
+
+.before-dot-g {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    &::before {
+        content: "";
+        display: block;
+        flex-shrink: 0;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: linear-gradient(92.78deg, #F22540 0%, #FF7900 100%);
+    }
+}

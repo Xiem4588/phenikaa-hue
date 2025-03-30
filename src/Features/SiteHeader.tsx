@@ -96,7 +96,7 @@ export default class SiteHeader extends HTMLElement {
                                             </button>
                                             <ul class="mega-menu__submenu-list" data-container-width="header-big">
                                                 <li class="mega-menu__submenu-item">
-                                                    <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="#">Submenu 2-1</a>
+                                                    <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="/news">Tất cả tin tức</a>
                                                 </li>
                                                 <li class="mega-menu__submenu-item">
                                                     <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="#">Submenu 2-2</a>

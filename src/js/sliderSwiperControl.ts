@@ -97,7 +97,7 @@ const sliderCustomersBlock = new Swiper("[data-slider-customers]", {
       slidesPerView: 3,
       spaceBetween: 30,
     },
-    1512: {
+    1366: {
       slidesPerView: 4,
       spaceBetween: 30,
     },

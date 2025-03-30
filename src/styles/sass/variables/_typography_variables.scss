@@ -2,10 +2,10 @@
 
 :root {
     // Font family
-    --font-family-body: 'IBM Plex Sans', sans-serif;
-    --font-family-heading: 'Roboto', sans-serif;
-    --font-family-subheading: 'IBM Plex Sans', sans-serif;
-    --font-family-preamble: 'IBM Plex Sans', sans-serif;
+    --font-family-body: "Inter", sans-serif;
+    --font-family-heading: "Inter", sans-serif;
+    --font-family-subheading: "Inter", sans-serif;
+    --font-family-preamble: "Montserrat", sans-serif;
 
     // opacity
     --opacity-01: 0.1;
@@ -20,7 +20,8 @@
     --opacity-1: 1;
 
     // Body text
-    --typography-bodytext-5xl: calc(4.8rem * 0.625);
+    --typography-bodytext-6xl: calc(4.8rem * 0.625);
+    --typography-bodytext-5xl: calc(3.6rem * 0.625);
     --typography-bodytext-4xl: calc(3rem * 0.625);
     --typography-bodytext-3xl: calc(2.6rem * 0.625);
     --typography-bodytext-2xl: calc(2.4rem * 0.625);

@@ -107,7 +107,7 @@ h1,.h1 {
 
     @include media-desktop {
         letter-spacing: 0.2rem;
-        font-size: var(--typography-bodytext-5xl);
+        font-size: var(--typography-bodytext-6xl);
     }
 }
 
@@ -119,7 +119,7 @@ h2,.h2 {
     letter-spacing: 0.1rem;
 
     @include media-desktop {
-        font-size: var(--typography-bodytext-4xl);
+        font-size: var(--typography-bodytext-5xl);
     }
 }
 

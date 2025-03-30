@@ -20,7 +20,7 @@ export default class ColumnTextContentBlock extends HTMLElement {
                         </div>
                         <p class="text-gray-500">complete payment options, let's shop now and use your favorite payment method</p>
                         <div class="column-text-content-block__image">
-                            <img alt="image" src="https://www.epinova.se/contentassets/84a377d2dc0c41b193e39ceb38fb534f/webpage.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=634&height=423">
+                            <img alt="image" src="./src/assets/images/image-item-6.png">
                         </div>
                     </div>
                     <div class="flex flex-col gap-8 rounded-lg bg-white p-12 shadow-lg outline outline-black/2 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
@@ -29,7 +29,7 @@ export default class ColumnTextContentBlock extends HTMLElement {
                         </div>
                         <p class="text-gray-500">let's join membership now and get discounts up to 72%</p>
                         <div class="column-text-content-block__image">
-                            <img alt="image" src="https://www.epinova.se/contentassets/84a377d2dc0c41b193e39ceb38fb534f/webpage.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=634&height=423">
+                            <img alt="image" src="./src/assets/images/image-item-6.png">
                         </div>
                     </div>
                 </div>

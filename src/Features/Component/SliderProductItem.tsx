@@ -7,7 +7,7 @@ export default class SliderProductItem extends HTMLElement {
                 <div class="slider-product-item__wrapper">
                     <div class="slider-product-item__image">
                         <a class="decoration-animation-none" href="/">
-                            <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
+                            <img alt="image" src="./src/assets/images/image-item-3.png">
                         </a>
                     </div>
                     <div class="slider-product-item__content">

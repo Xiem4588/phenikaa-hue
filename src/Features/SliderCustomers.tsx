@@ -17,7 +17,7 @@ export default class SliderCustomersBlock extends HTMLElement {
                                 <div class="customers-teaser-base-item__wrapper">
                                     <div class="customers-teaser-base-item__image">
                                         <a class="decoration-animation-none" href="/">
-                                            <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
+                                            <img alt="image" src="./src/assets/images/image-item-5.png">
                                         </a>
                                     </div>
                                     <div class="customers-teaser-base-item__content">
@@ -33,7 +33,7 @@ export default class SliderCustomersBlock extends HTMLElement {
                                 <div class="customers-teaser-base-item__wrapper">
                                     <div class="customers-teaser-base-item__image">
                                         <a class="decoration-animation-none" href="/">
-                                            <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
+                                            <img alt="image" src="./src/assets/images/image-item-5.png">
                                         </a>
                                     </div>
                                     <div class="customers-teaser-base-item__content">
@@ -49,7 +49,7 @@ export default class SliderCustomersBlock extends HTMLElement {
                                 <div class="customers-teaser-base-item__wrapper">
                                     <div class="customers-teaser-base-item__image">
                                         <a class="decoration-animation-none" href="/">
-                                            <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
+                                            <img alt="image" src="./src/assets/images/image-item-5.png">
                                         </a>
                                     </div>
                                     <div class="customers-teaser-base-item__content">
@@ -65,7 +65,7 @@ export default class SliderCustomersBlock extends HTMLElement {
                                 <div class="customers-teaser-base-item__wrapper">
                                     <div class="customers-teaser-base-item__image">
                                         <a class="decoration-animation-none" href="/">
-                                            <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
+                                            <img alt="image" src="./src/assets/images/image-item-5.png">
                                         </a>
                                     </div>
                                     <div class="customers-teaser-base-item__content">
@@ -81,7 +81,7 @@ export default class SliderCustomersBlock extends HTMLElement {
                                 <div class="customers-teaser-base-item__wrapper">
                                     <div class="customers-teaser-base-item__image">
                                         <a class="decoration-animation-none" href="/">
-                                            <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
+                                            <img alt="image" src="./src/assets/images/image-item-5.png">
                                         </a>
                                     </div>
                                     <div class="customers-teaser-base-item__content">

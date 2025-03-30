@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   /*{ "key":"--color-rgba-white", "value":"#FFFFFF", "name":"White" }*/
   --color-rgba-white: 255, 255, 255;
@@ -56,10 +56,10 @@
 }
 
 :root {
-  --font-family-body: "IBM Plex Sans", sans-serif;
-  --font-family-heading: "Roboto", sans-serif;
-  --font-family-subheading: "IBM Plex Sans", sans-serif;
-  --font-family-preamble: "IBM Plex Sans", sans-serif;
+  --font-family-body: "Inter", sans-serif;
+  --font-family-heading: "Inter", sans-serif;
+  --font-family-subheading: "Inter", sans-serif;
+  --font-family-preamble: "Montserrat", sans-serif;
   --opacity-01: 0.1;
   --opacity-02: 0.2;
   --opacity-03: 0.3;
@@ -70,7 +70,8 @@
   --opacity-08: 0.8;
   --opacity-09: 0.9;
   --opacity-1: 1;
-  --typography-bodytext-5xl: calc(4.8rem * 0.625);
+  --typography-bodytext-6xl: calc(4.8rem * 0.625);
+  --typography-bodytext-5xl: calc(3.6rem * 0.625);
   --typography-bodytext-4xl: calc(3rem * 0.625);
   --typography-bodytext-3xl: calc(2.6rem * 0.625);
   --typography-bodytext-2xl: calc(2.4rem * 0.625);
@@ -89,6 +90,14 @@
   --container-width-l: 1280px;
   --container-width-m: 1024px;
   --container-width-s: 768px;
+}
+
+.f-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.f-montserrat {
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -192,7 +201,7 @@ h1, .h1 {
 @media (width >= 1024px) {
   h1, .h1 {
     letter-spacing: 0.2rem;
-    font-size: var(--typography-bodytext-5xl);
+    font-size: var(--typography-bodytext-6xl);
   }
 }
 
@@ -205,7 +214,7 @@ h2, .h2 {
 }
 @media (width >= 1024px) {
   h2, .h2 {
-    font-size: var(--typography-bodytext-4xl);
+    font-size: var(--typography-bodytext-5xl);
   }
 }
 
@@ -1242,6 +1251,56 @@ styles for custom quote and checklist elements.*/
   width: 25px;
   height: 25px;
   content: "";
+}
+
+.border-b-gradient {
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(92.78deg, #F22540 0%, #FF7900 100%);
+  border-image-slice: 1;
+}
+
+.bg-gradient {
+  background: linear-gradient(92.78deg, #F22540 0%, #FF7900 100%);
+}
+
+.tex-gradient {
+  background: linear-gradient(92.78deg, #F22540 0%, #FF7900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.after-arrow-r {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.after-arrow-r:after {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-top: 3px solid currentColor;
+  border-right: 3px solid currentColor;
+  transition: transform 0.3s;
+  transform: translateX(-5px) rotate(45deg);
+}
+
+.before-dot-g {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.before-dot-g::before {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: linear-gradient(92.78deg, #F22540 0%, #FF7900 100%);
 }
 
 main {

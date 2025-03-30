@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-site-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phenikaa | Tin tức</title>
+    <link rel="stylesheet" href="src/styles/css/main.css">
+    <link rel="stylesheet" href="src/styles-tailwindcss/tailwindcss.css">
+
+    <script type="module">
+        import './src/Features/SiteHeader.tsx';
+        import './src/Features/SiteFooter.tsx';
+        import './src/Features/HeroBlock.tsx';
+        import './src/Features/HotNewsBlock.tsx';
+        import './src/Features/NewsCategoryBlock.tsx';
+        
+    </script>
+</head>
+
+<body>
+    <site-header
+        class="main-header"
+        data-header-fixed-top="true"
+        data-header-scroll
+        data-header-height>
+    </site-header>
+
+    <main class="main-content">
+        <hero-block></hero-block>
+
+        <hot-news-block></hot-news-block>
+        <news-category-block></news-category-block>
+        
+    </main>
+
+    <site-footer
+        class="main-footer"  data-background="default">
+    </site-footer>
+
+    <script src="./src/js/main.ts" type="module"></script>
+</body>
+
+</html>
