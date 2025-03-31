@@ -14,7 +14,6 @@
         import './src/Features/SliderProduct.tsx';
         import './src/Features/AccordionContentBlock.tsx';
         import './src/Features/SliderSector.tsx';
-        import './src/Features/ListTechFactory.tsx';
     </script>
 </head>
 
@@ -27,8 +26,73 @@
     </site-header>
 
     <main class="main-content">
-        <slider-product></slider-product>
-        <accordion-content-block></accordion-content-block>
+        <div class="p-4 pt-40 pb-20 bg-[#0D1F4B]">
+            <div class="" data-container-width="site">
+                <h2 class="text-white">Giới thiệu tập đoàn Phenikaa</h2>
+                <p class="text-gray-300 mt-2">Our journey began with a simple idea: make a simple journey make this world more fantastic. We collaborate with organizations.</p>
+                
+                <div class="grid grid-cols-2 gap-6 mt-6 items-start">
+                    <div class="flex flex-col gap-4">
+                        <img alt="image" src="./src/assets/images/image-item-9.png">
+                        <h3 class="text-white mt-5">Tầm nhìn</h3>
+                        <p class="text-gray-300 text-sm">Serves as the prime behind an organization’s social media platforms.</p>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <img alt="image" src="./src/assets/images/image-item-10.png">
+                        <h3 class="text-white mt-5">Sứ mệnh</h3>
+                        <p class="text-gray-300 text-sm">Serves as the prime behind an organization’s social media platforms.</p>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <img alt="image" src="./src/assets/images/image-item-10.png">
+                        <h3 class="text-white mt-5">Đối tác Quốc tế</h3>
+                        <p class="text-gray-300 text-sm">Serves as the prime behind an organization’s social media platforms.</p>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <img alt="image" src="./src/assets/images/image-item-9.png">
+                        <h3 class="text-white mt-5">Lĩnh vực hoạt động</h3>
+                        <p class="text-gray-300 text-sm">Serves as the prime behind an organization’s social media platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-4 md:p-10">
+
+            <div class="flex flex-col md:flex-row items-center md:items-start" data-container-width="site">
+                <div class="md:w-1/2">
+                    <img src="/mnt/data/image.png" alt="Sustainable Commitment" class="w-full rounded-lg">
+                </div>
+                <div class="md:w-1/2 mt-6 md:mt-0 md:pl-10">
+                    <h2 class="text-2xl font-bold text-gray-800">Cam kết phát triển bền vững</h2>
+                    <p class="text-gray-600 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    
+                    <div class="mt-6 space-y-6">
+                        <div class="flex items-start">
+                            <span class="w-10 h-10 flex items-center justify-center bg-blue-600 text-white font-bold rounded-full">01.</span>
+                            <div class="ml-4">
+                                <h3 class="font-semibold text-gray-800">An toàn lao động</h3>
+                                <p class="text-gray-600">Browse millions of properties in your city, save your favorites and set up search alerts</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="w-10 h-10 flex items-center justify-center bg-blue-600 text-white font-bold rounded-full">02.</span>
+                            <div class="ml-4">
+                                <h3 class="font-semibold text-gray-800">Bảo vệ môi trường</h3>
+                                <p class="text-gray-600">We are the one who can do everything very well and no one can be as good as us.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="w-10 h-10 flex items-center justify-center bg-blue-600 text-white font-bold rounded-full">03.</span>
+                            <div class="ml-4">
+                                <h3 class="font-semibold text-gray-800">Trách nhiệm xã hội</h3>
+                                <p class="text-gray-600">Find your dream house? You just need to a few action and you can start move to your house.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <slider-sector></slider-sector>
         <list-tech-factory></list-tech-factory>
     </main>
