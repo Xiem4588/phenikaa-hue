@@ -1300,6 +1300,17 @@ styles for custom quote and checklist elements.*/
   background: linear-gradient(92.78deg, #F22540 0%, #FF7900 100%);
 }
 
+.before-line-top::before {
+  content: "";
+  display: block;
+  width: 68px;
+  height: 1px;
+  background: currentColor;
+}
+.before-line-top.t-1::before {
+  margin-top: 15px;
+}
+
 main {
   flex-grow: 1;
 }

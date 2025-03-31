@@ -140,4 +140,28 @@ const sliderTestimonialsBlock = new Swiper("[data-slider-testimonials]", {
   },
 });
 
-export { sliderCubeControlBlock, sliderHeroProductBannerThumb, sliderHeroProductBannerLarge, sliderArticleBlock, sliderProductBlock, sliderCustomersBlock, sliderTestimonialsBlock, sliderSectorBlock };
+const sliderCertificationBlock = new Swiper("[data-slider-certification]", {
+  modules: [Navigation],
+  slidesPerView: 1,
+  spaceBetween: 24,
+  navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    1366: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
+  },
+});
+
+export { sliderCertificationBlock, sliderCubeControlBlock, sliderHeroProductBannerThumb, sliderHeroProductBannerLarge, sliderArticleBlock, sliderProductBlock, sliderCustomersBlock, sliderTestimonialsBlock, sliderSectorBlock };
