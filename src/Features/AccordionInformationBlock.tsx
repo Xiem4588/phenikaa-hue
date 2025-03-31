@@ -5,7 +5,7 @@ export default class AccordionInformationBlock extends HTMLElement {
     innerHTML = `
         <div class="accordion-content-block">
             <div class="accordion-content-block__wrapper" data-container-width="site-small">
-                <h2 class="accordion-content-block__heading-title text-center pb-10">Thông tin bổ sung</h2>
+                <h2 class="text-2xl xl:text-4xl font-medium text-center pb-10">Thông tin bổ sung</h2>
 
                 <div class="accordion-items-wrapper flex flex-col gap-4">
                     <div class="accordion-item rounded-lg bg-white p-4 shadow-md outline outline-black/2" aria-hidden="true">

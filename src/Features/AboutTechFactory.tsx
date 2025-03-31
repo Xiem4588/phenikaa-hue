@@ -2,12 +2,12 @@
 import './styles/_slider_sector_block.scss';
 import './styles/_slider-swiper-block.scss';
 
-export default class ListTechFactory extends HTMLElement {
+export default class AboutTechFactory extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
             <div class="p-5 flex flex-col gap-5 lg:gap-10" data-container-width="site">
-                <h2 class="">Công nghệ và năng lực nhà máy</h2>
+                <h2 class="text-2xl xl:text-4xl font-medium">Công nghệ và năng lực nhà máy</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-y-20 lg:py-10 container-type">
                     <div class="sector-teaser-base-item text-center" data-teaser-base-layout="grid">
                         <div class="sector-teaser-base-item__wrapper">
@@ -63,4 +63,4 @@ export default class ListTechFactory extends HTMLElement {
     }
 }
 
-customElements.define('list-tech-factory', ListTechFactory);
+customElements.define('about-tech-factory', AboutTechFactory);

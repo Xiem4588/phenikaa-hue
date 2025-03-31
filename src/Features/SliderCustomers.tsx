@@ -9,7 +9,7 @@ export default class SliderCustomersBlock extends HTMLElement {
             <div class="slider-customers-block container-type" data-background="default">
                 <div class="slider-customers-block__container" data-container-width="bodytext">
                     <div class="slider-customers-block__heading text-center">
-                        <h2 class="slider-customers-block__title">Khách hàng tiêu biểu</h2>
+                        <h2 class="text-2xl xl:text-4xl font-medium slider-customers-block__title">Khách hàng tiêu biểu</h2>
                     </div>
                     <div class="swiper" data-slider-customers>
                         <div class="swiper-wrapper">

@@ -2,14 +2,14 @@
 import './styles/_slider_certification_block.scss';
 import './styles/_slider-swiper-block.scss';
 
-export default class SliderCertification extends HTMLElement {
+export default class AboutSliderCertification extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
             <div class="slider-certification-block container-type" data-background="default">
                 <div class="slider-certification-block__container" data-container-width="bodytext">
                     <div class="slider-certification-block__heading">
-                        <h2 class="slider-certification-block__title">Khách hàng tiêu biểu</h2>
+                        <h2 class="text-2xl xl:text-4xl font-medium slider-certification-block__title">Chứng nhận công nghệ giải thưởng</h2>
                     </div>
                     <div class="swiper" data-slider-certification>
                         <div class="swiper-wrapper">
@@ -111,4 +111,4 @@ export default class SliderCertification extends HTMLElement {
     }
 }
 
-customElements.define('slider-certification', SliderCertification);
+customElements.define('about-slider-certification', AboutSliderCertification);

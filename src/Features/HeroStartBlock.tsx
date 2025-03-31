@@ -15,7 +15,7 @@ export default class HeroStartBlock extends HTMLElement {
                     <div class="hero-start-block__wrapper" data-container-width="site-large">
                         <div class="hero-start-block__text-container">
                             <div class="hero-start-block__heading">
-                                <h1 class="hero-start-block__heading-title">Giới thiệu tổng quan Phenikaa Cristobalite</h1>
+                                <h1 class="text-3xl xl:text-5xl font-medium hero-start-block__heading-title">Giới thiệu tổng quan Phenikaa Cristobalite</h1>
                             </div>
                             <div class="hero-start-block__subheading">
                                 <p class="h5 hero-start-block__subheading-text">We will help to thing into a big one for your company, We will help thing into a big We will help to develop every smallest thing into a big  your company, We will help to develop every smallest thing into a big</p>

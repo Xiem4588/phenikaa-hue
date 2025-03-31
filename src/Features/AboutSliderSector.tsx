@@ -2,14 +2,14 @@
 import './styles/_slider_sector_block.scss';
 import './styles/_slider-swiper-block.scss';
 
-export default class SliderSectorBlock extends HTMLElement {
+export default class AboutSliderSector extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
-            <div class="slider-sector-block container-type">
-                <div class="slider-sector-block__container" data-container-width="site">
-                    <div class="slider-sector-block__heading">
-                        <h2 class="slider-sector-block__title">Lĩnh vực sản xuất</h2>
+            <div class="about-slider-sector-block container-type">
+                <div class="about-slider-sector-block__container" data-container-width="site">
+                    <div class="about-slider-sector-block__heading">
+                        <h2 class="text-2xl xl:text-4xl font-medium about-slider-sector-block__title">Lĩnh vực sản xuất</h2>
                     </div>
                     <div class="swiper" data-slider-sector>
                         <div class="swiper-wrapper">
@@ -111,4 +111,4 @@ export default class SliderSectorBlock extends HTMLElement {
     }
 }
 
-customElements.define('slider-sector', SliderSectorBlock);
+customElements.define('about-slider-sector', AboutSliderSector);

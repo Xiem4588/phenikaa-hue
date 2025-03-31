@@ -13,7 +13,7 @@ export default class SliderProductItem extends HTMLElement {
                     <div class="slider-product-item__content">
                         <a class="slider-product-item__content-text decoration-animation-none text-center" href="/">
                             <div class="slider-product-item__heading">
-                                <h3 class="h4 slider-product-item__title">Sản phẩm 01</h3>
+                                <h3 class="text-xl xl:text-2xl font-medium slider-product-item__title">Sản phẩm 01</h3>
                             </div>
                             <div class="slider-product-item__preamble text-gray-500">
                                 Aliquam non elit lacus. Praesent aliquet, ipsum id scelerisque convallis, mi ligula euismod odio, vel dictum mi risus a mi.

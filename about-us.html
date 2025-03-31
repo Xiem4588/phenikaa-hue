@@ -13,9 +13,17 @@
         import './src/Features/SiteFooter.tsx';
         import './src/Features/SliderProduct.tsx';
         import './src/Features/AccordionContentBlock.tsx';
-        import './src/Features/SliderSector.tsx';
-        import './src/Features/ListTechFactory.tsx';
-        import './src/Features/SliderCertification.tsx';
+        import './src/Features/AboutSliderSector.tsx';
+        import './src/Features/AboutTechFactory.tsx';
+        import './src/Features/AboutSliderCertification.tsx';
+        import './src/Features/AboutInfo.tsx';
+        import './src/Features/AboutMember.tsx';
+        import './src/Features/AboutHistory.tsx';
+        import './src/Features/AboutCommitment.tsx';
+        import './src/Features/AboutPartner.tsx';
+        
+        
+        
     </script>
 </head>
 
@@ -24,110 +32,22 @@
     </site-header>
 
     <main class="main-content">
-        <div class="p-4 pt-40 pb-20 bg-[#0D1F4B]">
-            <div class="flex flex-col gap-5 lg:gap-10" data-container-width="site">
-                <div class="max-w-4xl flex flex-col gap-3">
-                    <h2 class="text-white before-line-top flex flex-col gap-5">Giới thiệu tập đoàn Phenikaa</h2>
-                    <p class="text-gray-200 mt-2">Our journey began with a simple idea: make a simple journey make this
-                        world more fantastic. We collaborate with organizations.</p>
-                </div>
-                <div class="grid md:grid-cols-2 gap-6 mt-6 items-start gap-10">
-                    <div class="flex flex-col gap-4">
-                        <img alt="image" src="./src/assets/images/image-item-9.png">
-                        <div class="before-line-top t-1 flex gap-5 text-white">
-                            <div class="flex flex-col gap-3">
-                                <h3 class="text-white">Tầm nhìn</h3>
-                                <p class="text-gray-200">Serves as the prime behind an organization’s social media
-                                    platforms.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-4">
-                        <img alt="image" src="./src/assets/images/image-item-10.png">
-                        <div class="before-line-top t-1 flex gap-5 text-white">
-                            <div class="flex flex-col gap-3">
-                                <h3 class="text-white">Sứ mệnh</h3>
-                                <p class="text-gray-200">Serves as the prime behind an organization’s social media
-                                    platforms.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-4">
-                        <img alt="image" src="./src/assets/images/image-item-10.png">
-                        <div class="before-line-top t-1 flex gap-5 text-white">
-                            <div class="flex flex-col gap-3">
-                                <h3 class="text-white">Đối tác Quốc tế</h3>
-                                <p class="text-gray-200">Serves as the prime behind an organization’s social media
-                                    platforms.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-4">
-                        <img alt="image" src="./src/assets/images/image-item-9.png">
-                        <div class="before-line-top t-1 flex gap-5 text-white">
-                            <div class="flex flex-col gap-3">
-                                <h3 class="text-white">Lĩnh vực hoạt động</h3>
-                                <p class="text-gray-200">Serves as the prime behind an organization’s social media
-                                    platforms.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <about-info></about-info>
 
-        <div class="p-4 md:p-10">
-            <div class="flex flex-col md:flex-row lg:items-center" data-container-width="site">
-                <img alt="image" src="./src/assets/images/image-item-13.png">
-            </div>
-        </div>
+        <about-member></about-member>
 
-        <slider-sector></slider-sector>
-        <list-tech-factory></list-tech-factory>
-        <slider-certification></slider-certification>
+        <about-history></about-history>        
 
-        <div class="p-4 md:p-10">
-            <div class="flex flex-col md:flex-row lg:items-center" data-container-width="site">
-                <div class="md:w-1/2">
-                    <img alt="image" src="./src/assets/images/image-item-12.png">
-                </div>
-                <div class="md:w-1/2 mt-6 md:mt-0 md:pl-10">
-                    <h2 class="before-line-top flex flex-col gap-5 text-gray-800">Cam kết phát triển bền vững</h2>
-                    <p class="text-gray-600 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod.</p>
+        <about-slider-sector></about-slider-sector>
 
-                    <div class="mt-6 lg:mt-15 space-y-5 lg:space-y-10">
-                        <div class="flex items-start gap-5">
-                            <span
-                                class="w-10 h-10 lg:w-20 lg:h-20 flex items-center justify-center bg-[#1F3A71] text-white font-bold rounded-full">01.</span>
-                            <div class="flex-1 flex flex-col gap-3">
-                                <h3 class="font-semibold text-gray-800">An toàn lao động</h3>
-                                <p class="text-gray-600">Browse millions of properties in your city, save your favorites
-                                    and set up search alerts</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-5">
-                            <span
-                                class="w-10 h-10 lg:w-20 lg:h-20 flex items-center justify-center bg-[#1F3A71] text-white font-bold rounded-full">02.</span>
-                            <div class="flex-1">
-                                <h3 class="font-semibold text-gray-800">Bảo vệ môi trường</h3>
-                                <p class="text-gray-600">We are the one who can do everything very well and no one can
-                                    be as good as us.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-5">
-                            <span
-                                class="w-10 h-10 lg:w-20 lg:h-20 flex items-center justify-center bg-[#1F3A71] text-white font-bold rounded-full">03.</span>
-                            <div class="flex-1">
-                                <h3 class="font-semibold text-gray-800">Trách nhiệm xã hội</h3>
-                                <p class="text-gray-600">Find your dream house? You just need to a few action and you
-                                    can start move to your house.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <about-tech-factory></about-tech-factory>
+
+        <about-slider-certification></about-slider-certification>
+
+        <about-commitment></about-commitment>
+
+        <about-partner></about-partner>
+        
     </main>
 
     <site-footer class="main-footer" data-background="default">

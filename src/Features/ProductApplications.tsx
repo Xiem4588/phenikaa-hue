@@ -8,9 +8,7 @@ export default class ProductApplications extends HTMLElement {
             <div class="product-applications-block">
                 <div class="product-applications-grid" data-container-width="bodytext">
                     <div class="flex flex-col gap-8 pb-18 text-center">
-                        <h2 class="h1">
-                            Ứng dụng của sản phẩm
-                        </h2>
+                        <h2 class="text-3xl xl:text-5xl font-medium">Ứng dụng của sản phẩm</h2>
                     </div>
                     <div class="product-applications-block__wrapper" data-layout-smart="3-per-row">
                         <div class="product-applications-item" data-background-item="true" data-teaser-base-layout="grid">

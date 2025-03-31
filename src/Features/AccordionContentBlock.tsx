@@ -7,7 +7,7 @@ export default class AccordionContentBlock extends HTMLElement {
             <div class="accordion-content-block__wrapper" data-container-width="site-small">
                 <div class="accordion-content-block__text-container">
                     <div class="accordion-content-block__heading">
-                        <h2 class="accordion-content-block__heading-title">Ưu thế cạnh tranh</h2>
+                        <h2 class="text-2xl xl:text-4xl font-medium accordion-content-block__heading-title">Ưu thế cạnh tranh</h2>
                     </div>
                     <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                 </div>

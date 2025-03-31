@@ -15,13 +15,13 @@ export default class NewsCategoryItems extends HTMLElement {
                         <div class="teaser-base-item__content">
                             <a class="teaser-base-item__content-text decoration-animation-none" href="/">
                                 <div class="teaser-base-item__heading">
-                                    <h3 class="teaser-base-item__title">Tin tức 1</h3>
+                                    <h3 class="text-xl xl:text-2xl font-medium">Tin tức 1</h3>
                                 </div>
                                 <div class="teaser-base-item__time">
-                                    <time class="teaser-base-item__date">14/02/2024</time>
+                                    <time class="text-gray-500">14/02/2024</time>
                                 </div>
                                 <div class="teaser-base-item__preamble">
-                                    <p class="teaser-base-item__preamble-text">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
+                                    <p class="text-gray-500">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
                                 </div>
                             </a>
                         </div>
@@ -37,13 +37,13 @@ export default class NewsCategoryItems extends HTMLElement {
                         <div class="teaser-base-item__content">
                             <a class="teaser-base-item__content-text decoration-animation-none" href="/">
                                 <div class="teaser-base-item__heading">
-                                    <h3 class="teaser-base-item__title">Tin tức 1</h3>
+                                    <h3 class="text-xl xl:text-2xl font-medium">Tin tức 1</h3>
                                 </div>
                                 <div class="teaser-base-item__time">
-                                    <time class="teaser-base-item__date">14/02/2024</time>
+                                    <time class="text-gray-500">14/02/2024</time>
                                 </div>
                                 <div class="teaser-base-item__preamble">
-                                    <p class="teaser-base-item__preamble-text">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
+                                    <p class="text-gray-500">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
                                 </div>
                             </a>
                         </div>
@@ -59,13 +59,13 @@ export default class NewsCategoryItems extends HTMLElement {
                         <div class="teaser-base-item__content">
                             <a class="teaser-base-item__content-text decoration-animation-none" href="/">
                                 <div class="teaser-base-item__heading">
-                                    <h3 class="teaser-base-item__title">Tin tức 1</h3>
+                                    <h3 class="text-xl xl:text-2xl font-medium">Tin tức 1</h3>
                                 </div>
                                 <div class="teaser-base-item__time">
-                                    <time class="teaser-base-item__date">14/02/2024</time>
+                                    <time class="text-gray-500">14/02/2024</time>
                                 </div>
                                 <div class="teaser-base-item__preamble">
-                                    <p class="teaser-base-item__preamble-text">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
+                                    <p class="text-gray-500">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
                                 </div>
                             </a>
                         </div>
@@ -81,13 +81,13 @@ export default class NewsCategoryItems extends HTMLElement {
                         <div class="teaser-base-item__content">
                             <a class="teaser-base-item__content-text decoration-animation-none" href="/">
                                 <div class="teaser-base-item__heading">
-                                    <h3 class="teaser-base-item__title">Tin tức 1</h3>
+                                    <h3 class="text-xl xl:text-2xl font-medium">Tin tức 1</h3>
                                 </div>
                                 <div class="teaser-base-item__time">
-                                    <time class="teaser-base-item__date">14/02/2024</time>
+                                    <time class="text-gray-500">14/02/2024</time>
                                 </div>
                                 <div class="teaser-base-item__preamble">
-                                    <p class="teaser-base-item__preamble-text">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
+                                    <p class="text-gray-500">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
                                 </div>
                             </a>
                         </div>
@@ -103,13 +103,13 @@ export default class NewsCategoryItems extends HTMLElement {
                         <div class="teaser-base-item__content">
                             <a class="teaser-base-item__content-text decoration-animation-none" href="/">
                                 <div class="teaser-base-item__heading">
-                                    <h3 class="teaser-base-item__title">Tin tức 1</h3>
+                                    <h3 class="text-xl xl:text-2xl font-medium">Tin tức 1</h3>
                                 </div>
                                 <div class="teaser-base-item__time">
-                                    <time class="teaser-base-item__date">14/02/2024</time>
+                                    <time class="text-gray-500">14/02/2024</time>
                                 </div>
                                 <div class="teaser-base-item__preamble">
-                                    <p class="teaser-base-item__preamble-text">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
+                                    <p class="text-gray-500">Nhựa polyester không no là vật liệu polymer có khả năng chịu nhiệt cao, phù hợp với nhiều ứng dụng công nghiệp.</p>
                                 </div>
                             </a>
                         </div>

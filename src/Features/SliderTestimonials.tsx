@@ -10,7 +10,7 @@ export default class SliderTestimonials extends HTMLElement {
                 <div class="slider-testimonials-grid" data-container-width="bodytext">
                     <div class="hero-block__text-container py-8">
                         <div class="hero-block__heading">
-                            <h2 class="hero-block__heading-title">
+                            <h2 class="text-2xl xl:text-4xl font-medium hero-block__heading-title">
                                 Khách hàng nói gì về chúng tôi
                             </h2>
                         </div>

@@ -10,7 +10,7 @@ export default class HeroBlock extends HTMLElement {
                 </div>
                 <div class="hero-block__content flex items-center">
                     <div class="text-center space-y-8" data-container-width="site-small">
-                        <h1 class="hero-block__heading-title">TÀI LIỆU KỸ THUẬT</h1>
+                        <h1 class="text-2xl xl:text-4xl font-medium">TÀI LIỆU KỸ THUẬT</h1>
                         <p class="line-clamp-3">
                             Cung cấp các tài liệu chuyên sâu về sản phẩm và cách sử dụng, giúp khách hàng hiểu rõ và tối ưu hiệu quả khi sử dụng sản phẩm của Phenikaa Chemical.
                         </p>

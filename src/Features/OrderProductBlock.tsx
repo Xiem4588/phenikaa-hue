@@ -6,14 +6,10 @@ export default class OrderProductBlock extends HTMLElement {
         <div class="column-text-content-block" data-background="primary-10">
             <div data-container-width="bodytext">
                 <div class="flex flex-col gap-8 pt-12 text-center">
-                    <h2 class="h1 column-text-content-block__heading-title">
-                        Order sản phẩm mẫu 
-                    </h2>
+                    <h2 class="text-2xl xl:text-4xl font-medium">Order sản phẩm mẫu</h2>
                 </div>
-                <div class="justify-center mt-15">
-                    <a href="/" class="btn button--primary decoration-animation-none" href="/no/signin.html">
-                        <span>Liên hệ với chúng tôi</span>
-                    </a>
+                <div class="justify-center mt-8 text-white text-center">
+                    <a href="#" class="bg-orange-500 px-6 py-2 rounded decoration-animation-none">Liên hệ với chúng tôi</a>
                 </div>
             </div>
         </div>
