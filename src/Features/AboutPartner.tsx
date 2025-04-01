@@ -25,8 +25,8 @@ export default class AboutPartner extends HTMLElement {
                 <div class="bg-white shadow px-6 py-20 my-10 lg:my-20 text-center">
                     <h2 class="text-2xl xl:text-4xl font-medium mb-5">Kết nối với Phenikaa Huế</h2>
                     <div class="flex flex-col md:flex-row justify-center text-white  gap-4">
-                        <a href="#" class="bg-orange-500 px-6 py-2 rounded decoration-animation-none">Xem thêm về Phenikaa Group</a>
-                        <a href="#" class="bg-gray-900 px-6 py-2 rounded decoration-animation-none">Liên hệ ngay</a>
+                        <a href="#" class="bg-orange-500 px-6 py-2 rounded hover:bg-orange-600 transition decoration-animation-none">Xem thêm về Phenikaa Group</a>
+                        <a href="#" class="bg-gray-900 px-6 py-2 rounded hover:bg-gray-600 transition decoration-animation-none">Liên hệ ngay</a>
                     </div>
                 </div>
             </div>

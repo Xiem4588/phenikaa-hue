@@ -6,7 +6,7 @@ export default class HotNewsBlock extends HTMLElement {
         this.innerHTML = `
             <div class="grid md:grid-cols-4 gap-4 my-10" data-container-width="site">
                 <div class="md:col-span-3">
-                    <div class="hot-news-block">
+                    <a href="/news-category" class="hot-news-block decoration-animation-none">
                         <div class="hot-news-block__image">
                             <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                         </div>
@@ -22,34 +22,34 @@ export default class HotNewsBlock extends HTMLElement {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
         
                 <div class="md:col-span-1 grid grid-cols-3 md:grid-cols-1 gap-4">
-                    <div class="hot-news-block">
+                    <a href="/news-category" class="hot-news-block decoration-animation-none">
                         <div class="hot-news-block__image">
                             <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                         </div>
                         <div class="hot-news-block__content text-center flex items-center justify-center">
                             <h2 class="h3">Tin tức công ty</h2>
                         </div>
-                    </div>
-                    <div class="hot-news-block">
+                    </a>
+                    <a href="/news-category" class="hot-news-block decoration-animation-none">
                         <div class="hot-news-block__image">
                             <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                         </div>
                         <div class="hot-news-block__content text-center flex items-center justify-center">
                             <h2 class="h3">Tin tức ngành</h2>
                         </div>
-                    </div>
-                    <div class="hot-news-block">
+                    </a>
+                    <a href="/news-category" class="hot-news-block decoration-animation-none">
                         <div class="hot-news-block__image">
                             <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                         </div>
                         <div class="hot-news-block__content text-center flex items-center justify-center">
                             <h2 class="h3">Đối tác & Khách hàng</h2>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             

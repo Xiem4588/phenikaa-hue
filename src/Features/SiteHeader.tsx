@@ -33,80 +33,33 @@ export default class SiteHeader extends HTMLElement {
                                 </li>
                                 <li class="mega-menu__item" data-mega-menu-item="true" aria-hidden="true">
                                     <a class="mega-menu__item-button" data-item-button data-set-item-menu-active href="/product">${i18next.t("navigation.product")}</a>
+                                </li>
+                                <li class="mega-menu__item" data-mega-menu-item="true" aria-hidden="true">
+                                    <a class="mega-menu__item-button" data-item-button data-set-item-menu-active href="/support">${i18next.t("navigation.support")}</a>
                                     <div class="mega-menu__submenu" data-mega-menu-submenu data-background="default">
                                         <div class="mega-menu__submenu-container" data-container-width="header-big">
                                             <button type="button" class="mega-menu__submenu-go-back" data-button-go-back>
                                                 <span class="mega-menu__title">Main menu</span>
-                                                <span class="mega-menu__close">Close</span>
                                             </button>
                                             <ul class="mega-menu__submenu-list" data-container-width="header-big">
                                                 <li class="mega-menu__submenu-item" data-mega-menu-submenu-item="true" aria-hidden="true">
-                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/hero-block">Danh mục sản phẩm</a>
-                                                    <div class="mega-menu__submenu-item-submenu" data-mega-menu-submenu-item-submenu="true" data-background="default">
-                                                        <button type="button" class="mega-menu__submenu-item-submenu-go-back" data-button-go-back>
-                                                            <span class="mega-menu__title">Main menu submenu</span>
-                                                            <span class="mega-menu__close">Close</span>
-                                                        </button>
-                                                        <ul class="mega-menu__submenu-submenu-list">
-                                                            <li class="mega-menu__submenu-submenu-item"><a data-set-item-menu-active href="/product">Sản phẩm</a></li>
-                                                        </ul>
-                                                    </div>
+                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/document">Tài liệu kỹ thuật</a>
                                                 </li>
                                                 <li class="mega-menu__submenu-item" data-mega-menu-submenu-item aria-hidden="true">
-                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/teaser-layout">Danh mục tài liệu</a>
-                                                    <div class="mega-menu__submenu-item-submenu" data-mega-menu-submenu-item-submenu="true" data-background="default">
-                                                        <button type="button" class="mega-menu__submenu-item-submenu-go-back" data-button-go-back>
-                                                            <span class="mega-menu__title">Main menu submenu</span>
-                                                            <span class="mega-menu__close">Close</span>
-                                                        </button>
-                                                        <ul class="mega-menu__submenu-submenu-list">
-                                                            <li class="mega-menu__submenu-submenu-item"><a data-set-item-menu-active href="/document">Tài liệu kỹ thuật</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="mega-menu__submenu-item" data-mega-menu-submenu-item aria-hidden="true">
-                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/slider-swiper">FAQ - Câu hỏi thường gặp</a>
-                                                    <div class="mega-menu__submenu-item-submenu" data-mega-menu-submenu-item-submenu="true" data-background="default">
-                                                        <button type="button" class="mega-menu__submenu-item-submenu-go-back" data-button-go-back>
-                                                            <span class="mega-menu__title">Main menu submenu</span>
-                                                            <span class="mega-menu__close">Close</span>
-                                                        </button>
-                                                        <ul class="mega-menu__submenu-submenu-list">
-                                                            <li class="mega-menu__submenu-submenu-item"><a data-set-item-menu-active href="/faq">Câu hỏi thường gặp</a></li>
-                                                        </ul>
-                                                    </div>
+                                                    <a class="mega-menu__submenu-item-button" data-submenu-item-button data-set-item-menu-active href="/faq">FAQ - Câu hỏi thường gặp</a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-                                </li>
-                                <li class="mega-menu__item" data-mega-menu-item="true" aria-hidden="true">
-                                    <a class="mega-menu__item-button" data-item-button data-set-item-menu-active href="/support">${i18next.t("navigation.support")}</a>
                                 </li>
                                 <li class="mega-menu__item" data-mega-menu-item="true" aria-hidden="true">
                                     <a class="mega-menu__item-button" data-item-button data-set-item-menu-active href="/contact">${i18next.t("navigation.contact")}</a>
                                 </li>
                                 <li class="mega-menu__item" data-mega-menu-item="true" aria-hidden="true">
                                     <a class="mega-menu__item-button" data-item-button data-set-item-menu-active href="/news">${i18next.t("navigation.news")}</a>
-                                    <div class="mega-menu__submenu" data-mega-menu-submenu data-background="default">
-                                        <div class="mega-menu__submenu-container" data-container-width="header-big">
-                                            <button type="button" class="mega-menu__submenu-go-back" data-button-go-back>
-                                                <span class="mega-menu__title">Main menu</span>
-                                                <span class="mega-menu__close">Close</span>
-                                            </button>
-                                            <ul class="mega-menu__submenu-list" data-container-width="header-big">
-                                                <li class="mega-menu__submenu-item">
-                                                    <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="/news">Tất cả tin tức - Category</a>
-                                                </li>
-                                                <li class="mega-menu__submenu-item">
-                                                    <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="/news-category">Tin tức - Category item</a>
-                                                </li>
-                                                <li class="mega-menu__submenu-item">
-                                                    <a class="mega-menu__submenu-item-button" data-set-item-menu-active href="/news-detail">Tin tức - Detail</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                </li>
+                                <li class="mega-menu__language">
+                                    <language-switcher></language-switcher>
                                 </li>
                             </ul>
                         </div>
