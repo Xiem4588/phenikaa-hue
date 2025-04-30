@@ -20,7 +20,7 @@ const handleHeaderMenu = () => {
 
     // Mega Menu
     document.querySelectorAll('[data-mega-menu-item] [data-mega-menu-submenu], [data-mega-menu-submenu-item] [data-mega-menu-submenu-item-submenu]')
-        .forEach(el => el.parentElement?.setAttribute('aria-hidden', 'true'));
+    .forEach(el => el.parentElement?.setAttribute('aria-hidden', 'true'));
 
     document.addEventListener('click', (e) => {
         const targetElement = e.target as Element;
@@ -53,6 +53,17 @@ const handleHeaderMenu = () => {
         } else if (!targetElement.closest('[data-mega-menu-submenu]')) {
             hideAll(false);
         }
+
+        if (
+            targetElement.tagName.toLowerCase() === 'a' &&
+            targetElement.closest('.main__header') &&
+            !targetElement.hasAttribute('data-item-button') &&
+            !targetElement.hasAttribute('data-submenu-item-button')
+        ) {
+            const mainHeader = document.querySelector('.main__header');
+            mainHeader?.setAttribute('aria-hidden', 'true');
+            document.documentElement.setAttribute('data-mega-menu-visible', 'false');
+        }
     });
 
     // Height ...PX
@@ -72,10 +83,16 @@ const handleHeaderMenu = () => {
     const scrollContent = () => {
         let lastScrollTop = 0;
         const dataHeaderScroll = document.querySelector('[data-header-scroll]') as HTMLElement;
+
         window.addEventListener('scroll', () => {
             const scrollTop = window.scrollY || document.documentElement.scrollTop;
-            dataHeaderScroll.classList.toggle('header-scroll-down', scrollTop > lastScrollTop);
-            dataHeaderScroll.classList.toggle('header-scroll-up', scrollTop <= lastScrollTop && scrollTop > 0);
+            if (scrollTop > 100) {
+                dataHeaderScroll.classList.toggle('header-scroll-down', scrollTop > lastScrollTop);
+                dataHeaderScroll.classList.toggle('header-scroll-up', scrollTop <= lastScrollTop);
+            } else {
+                dataHeaderScroll.classList.remove('header-scroll-down', 'header-scroll-up');
+            }
+
             lastScrollTop = scrollTop;
         });
     };

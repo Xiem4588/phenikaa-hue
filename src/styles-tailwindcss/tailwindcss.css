@@ -994,6 +994,11 @@
       gap: calc(var(--spacing) * 20);
     }
   }
+  .md\:gap-25 {
+    @media (width >= 48rem) {
+      gap: calc(var(--spacing) * 25);
+    }
+  }
   .md\:space-y-8 {
     @media (width >= 48rem) {
       :where(& > :not(:last-child)) {
