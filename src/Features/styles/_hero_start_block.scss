@@ -40,7 +40,7 @@
             display: flex;
             flex-direction: row;
             gap: var(--space-50);
-            padding: calc(var(--main-header-height) + var(--space-50)) var(--space-24) var(--space-50);
+            padding: calc(var(--main-header-height) + var(--space-50)) var(--space-24) var(--space-80);
         }
 
         .hero-start-block__image {

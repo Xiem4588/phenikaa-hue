@@ -1,7 +1,7 @@
 // Flex Layout parent
 @mixin flex-layout(
     $gap: 24px,
-    $wrap: wrap,
+    $wrap: initial,
     $direction: column,
 ) {
     display: flex;

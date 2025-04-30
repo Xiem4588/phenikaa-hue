@@ -7,9 +7,8 @@ import "swiper/css/effect-fade";
 
 const sliderCubeControlBlock = new Swiper("[data-slider-cube-control]", {
     modules: [Pagination, EffectCube, Autoplay],
-    effect: "cube",
     autoplay: {
-        delay: 5000,
+        delay: 15000,
         disableOnInteraction: false,
     },
     loop: true,
@@ -164,4 +163,14 @@ const sliderCertificationBlock = new Swiper("[data-slider-certification]", {
   },
 });
 
-export { sliderCertificationBlock, sliderCubeControlBlock, sliderHeroProductBannerThumb, sliderHeroProductBannerLarge, sliderArticleBlock, sliderProductBlock, sliderCustomersBlock, sliderTestimonialsBlock, sliderSectorBlock };
+export {
+  sliderCertificationBlock,
+  sliderCubeControlBlock,
+  sliderHeroProductBannerThumb,
+  sliderHeroProductBannerLarge,
+  sliderArticleBlock,
+  sliderProductBlock,
+  sliderCustomersBlock,
+  sliderTestimonialsBlock,
+  sliderSectorBlock
+};

@@ -3,18 +3,20 @@
 :root {
     --hero-start-block-background-image: linear-gradient(0deg, rgb(0 0 0 / 60%) 0%, rgb(0 0 0 / 60%) 100%);
     --hero-start-block-background-text: linear-gradient(135deg, #a18cd1, #fad0c4, #a18cd1, #fbc2eb, #a18cd1, #fbc2eb, #a18cd1);
-    --swiper-navigation-color: #0A4DA6;
+    --swiper-navigation-color: #1F3A71;
 }
 
 .slider-cube-control-block {
     overflow: hidden;
     .swiper {
+        background: var(--swiper-navigation-color);
         .swiper-pagination {
             bottom: var(--space-24);
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
+            gap: var(--space-16);
         }
 
         .swiper-pagination-bullet {
@@ -140,7 +142,8 @@
 }
 
 .swiper-wrapper {
-    align-items: stretch
+    align-items: stretch;
+    align-items: center;
 }
 
 .slider-customers-block,

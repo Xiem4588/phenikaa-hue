@@ -28,42 +28,62 @@
 
     <main class="main-content">
         <hero-block></hero-block>
-        <div class="p-4" data-container-width="bodytext">
-            <div class="py-10 md:py-20">
+        <div class="p-4 py-10 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-15" data-container-width="bodytext">
+            <div class="pb-10 md:pb-20">
                 <h2 class="text-2xl xl:text-4xl font-medium mb-8">Hãy liên hệ với chúng tôi</h2>
-                <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <form>
                     <div class="grid gap-6">
                         <div>
-                            <label class="block text-gray-700 font-medium mb-1">Họ và tên</label>
-                            <input type="text" placeholder="Nhập tên của bạn" class="w-full p-2.5 border border-gray-300  focus:ring-orange-400">
+                            <label class="block text-gray-700 font-medium mb-1">Họ và tên*</label>
+                            <input type="text" placeholder="Nhập tên" class="w-full p-2.5 border border-gray-300  focus:ring-orange-400" required>
                         </div>
                         <div>
-                            <label class="block text-gray-700 font-medium mb-1">Công ty</label>
-                            <input type="text" placeholder="Nhập tên công ty của bạn" class="w-full p-2.5 border border-gray-300 focus:ring-orange-400">
+                            <label class="block text-gray-700 font-medium mb-1">Email*</label>
+                            <input type="email" placeholder="Nhập email" class="w-full p-2.5 border border-gray-300 focus:ring-orange-400" required>
                         </div>
                         <div>
-                            <label class="block text-gray-700 font-medium mb-1">Địa chỉ</label>
-                            <input type="text" placeholder="Nhập địa chỉ của bạn" class="w-full p-2.5 border border-gray-300 focus:ring-orange-400">
+                            <label class="block text-gray-700 font-medium mb-1">Số điện thoại</label>
+                            <input type="tel" placeholder="Nhập số điện thoại" class="w-full p-2.5 border border-gray-300 focus:ring-orange-400" required>
                         </div>
                         <div>
-                            <label class="block text-gray-700 font-medium mb-1">Email</label>
-                            <input type="email" placeholder="Nhập email của bạn" class="w-full p-2.5 border border-gray-300 focus:ring-orange-400">
+                            <label class="block text-gray-700 font-medium mb-1">Quốc gia</label>
+                            <input type="text" placeholder="Nhập quốc gia" class="w-full p-2.5 border border-gray-300 focus:ring-orange-400">
                         </div>
-                    </div>
-
-                    <div class="flex flex-col gap-4">
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-1">Bang/Tỉnh</label>
+                            <input type="text" placeholder="Nhập bang/tỉnh" class="w-full p-2.5 border border-gray-300 focus:ring-orange-400">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-1">Thành phố</label>
+                            <input type="text" placeholder="Nhập thành phố" class="w-full p-2.5 border border-gray-300 focus:ring-orange-400">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-1">Địa chỉ*</label>
+                            <input type="text" placeholder="Nhập địa chỉ" class="w-full p-2.5 border border-gray-300 focus:ring-orange-400" required>
+                        </div>
                         <div class="flex-1 flex flex-col">
-                            <label class="block text-gray-700 font-medium mb-1">Thông điệp</label>
-                            <textarea placeholder="Nhập thông điệp của bạn" class="w-full flex-1 p-2.5 border border-gray-300 focus:ring-orange-400"></textarea>
+                            <label class="block text-gray-700 font-medium mb-1">Tin nhắn*</label>
+                            <textarea placeholder="Nhập thông điệp của bạn" class="w-full flex-1 p-2.5 border border-gray-300 focus:ring-orange-400" required></textarea>
                         </div>
-                    </div>
-                    <div class="col-start-2">
-                        <button type="submit" class="bg-orange-500 text-white px-6 py-2 rounded-md hover:bg-orange-600 transition">
-                            Gửi
-                        </button>
+                        <div class="confirm-text">
+                            <ul class="list-disc pl-5">
+                                <li>Tôi đồng ý nhận các thông tin qua email và hiểu rằng thông tin của tôi sẽ được sử dụng cho mục đích tiếp thị.</li>
+                                <li>Bằng cách cung cấp thông tin và nhấn Gửi, bạn xác hận và đồng ý với <a class="font-bold" href="#">Chính sách quyền riêng tư</a> và <a class="font-bold" href="#">Điều khoản sử dụng</a> của trang web chúng tôi</li>
+                            </ul>
+                        </div>
+                        <div class="bor">
+                            <button type="submit" class="bg-orange-500 text-white px-10 py-3 rounded-md hover:bg-orange-600 transition">
+                                Gửi
+                            </button>
+                        </div>
                     </div>
                 </form>
-            </div>          
+            </div>
+            <div>
+                <p class="rounded-lg overflow-hidden">
+                    <img alt="image" src="./src/assets/images/DUY_0866_result.jpg">
+                </p>
+            </div>
         </div>
 
         <div class="p-4 mb-20" data-container-width="bodytext">

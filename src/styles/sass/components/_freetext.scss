@@ -68,6 +68,7 @@ styles for custom quote and checklist elements.*/
     figure.image,
     img {
         margin: var(--space-24) 0;
+        display: initial;
 
         @include media-tablet-medium {
             margin: var(--space-48) 0;
