@@ -13,6 +13,7 @@ import {
   sliderTestimonialsBlock,
   sliderSectorBlock} from "./sliderSwiperControl.ts"
 import handleAccordionButton from "./accordion.ts"
+import CountNumbersAnimation from "./countNumbersAnimation.ts"
 
 handleLanguage();
 handleHeaderMenu();
@@ -28,3 +29,4 @@ sliderProductBlock.init();
 sliderCustomersBlock.init();
 sliderTestimonialsBlock.init();
 sliderSectorBlock.init();
+CountNumbersAnimation();

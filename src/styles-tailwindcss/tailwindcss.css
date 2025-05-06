@@ -1,4 +1,4 @@
-/*! tailwindcss v4.1.4 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.1.5 | MIT License | https://tailwindcss.com */
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
@@ -204,9 +204,6 @@
   }
 }
 @layer utilities {
-  .\@container {
-    container-type: inline-size;
-  }
   .pointer-events-none {
     pointer-events: none;
   }
@@ -227,6 +224,24 @@
   }
   .order-1 {
     order: 1;
+  }
+  .container {
+    width: 100%;
+    @media (width >= 40rem) {
+      max-width: 40rem;
+    }
+    @media (width >= 48rem) {
+      max-width: 48rem;
+    }
+    @media (width >= 64rem) {
+      max-width: 64rem;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
   }
   .m-1 {
     margin: calc(var(--spacing) * 1);
@@ -321,9 +336,6 @@
   .inline-block {
     display: inline-block;
   }
-  .table {
-    display: table;
-  }
   .aspect-\[4\/3\] {
     aspect-ratio: 4/3;
   }
@@ -336,14 +348,8 @@
   .h-24 {
     height: calc(var(--spacing) * 24);
   }
-  .h-80 {
-    height: calc(var(--spacing) * 80);
-  }
   .h-150 {
     height: calc(var(--spacing) * 150);
-  }
-  .h-250 {
-    height: calc(var(--spacing) * 250);
   }
   .w-4 {
     width: calc(var(--spacing) * 4);
@@ -375,17 +381,8 @@
   .flex-3 {
     flex: 3;
   }
-  .flex-shrink {
-    flex-shrink: 1;
-  }
-  .flex-grow {
-    flex-grow: 1;
-  }
   .grow {
     flex-grow: 1;
-  }
-  .border-collapse {
-    border-collapse: collapse;
   }
   .-translate-y-1\/2 {
     --tw-translate-y: calc(calc(1/2 * 100%) * -1);
@@ -417,9 +414,6 @@
   }
   .flex-col {
     flex-direction: column;
-  }
-  .flex-wrap {
-    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
@@ -768,7 +762,7 @@
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
   .transition {
-    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter;
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
@@ -994,11 +988,6 @@
       gap: calc(var(--spacing) * 20);
     }
   }
-  .md\:gap-25 {
-    @media (width >= 48rem) {
-      gap: calc(var(--spacing) * 25);
-    }
-  }
   .md\:space-y-8 {
     @media (width >= 48rem) {
       :where(& > :not(:last-child)) {
@@ -1142,11 +1131,6 @@
   .lg\:gap-20 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 20);
-    }
-  }
-  .lg\:gap-25 {
-    @media (width >= 64rem) {
-      gap: calc(var(--spacing) * 25);
     }
   }
   .lg\:space-y-10 {
