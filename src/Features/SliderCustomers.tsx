@@ -16,12 +16,12 @@ export default class SliderCustomersBlock extends HTMLElement {
                             <div class="swiper-slide customers-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="customers-teaser-base-item__wrapper">
                                     <div class="customers-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-5.png">
                                         </a>
                                     </div>
                                     <div class="customers-teaser-base-item__content">
-                                        <a class="customers-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="customers-teaser-base-item__content-text " href="/">
                                             <div class="customers-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -32,12 +32,12 @@ export default class SliderCustomersBlock extends HTMLElement {
                             <div class="swiper-slide customers-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="customers-teaser-base-item__wrapper">
                                     <div class="customers-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-5.png">
                                         </a>
                                     </div>
                                     <div class="customers-teaser-base-item__content">
-                                        <a class="customers-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="customers-teaser-base-item__content-text " href="/">
                                             <div class="customers-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -48,12 +48,12 @@ export default class SliderCustomersBlock extends HTMLElement {
                             <div class="swiper-slide customers-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="customers-teaser-base-item__wrapper">
                                     <div class="customers-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-5.png">
                                         </a>
                                     </div>
                                     <div class="customers-teaser-base-item__content">
-                                        <a class="customers-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="customers-teaser-base-item__content-text " href="/">
                                             <div class="customers-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -64,12 +64,12 @@ export default class SliderCustomersBlock extends HTMLElement {
                             <div class="swiper-slide customers-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="customers-teaser-base-item__wrapper">
                                     <div class="customers-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-5.png">
                                         </a>
                                     </div>
                                     <div class="customers-teaser-base-item__content">
-                                        <a class="customers-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="customers-teaser-base-item__content-text " href="/">
                                             <div class="customers-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -80,12 +80,12 @@ export default class SliderCustomersBlock extends HTMLElement {
                             <div class="swiper-slide customers-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="customers-teaser-base-item__wrapper">
                                     <div class="customers-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-5.png">
                                         </a>
                                     </div>
                                     <div class="customers-teaser-base-item__content">
-                                        <a class="customers-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="customers-teaser-base-item__content-text " href="/">
                                             <div class="customers-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>

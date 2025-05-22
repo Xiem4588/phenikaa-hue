@@ -12,12 +12,12 @@ export default class TeaserBaseItem extends HTMLElement {
             <div class="teaser-base-item" data-background-item="${isBackgroundItem}" data-teaser-base-layout="${layoutItem}" data-teaser-base-layout-image-stand="${layoutStand}">
                 <div class="teaser-base-item__wrapper">
                     <div class="teaser-base-item__image">
-                        <a class="decoration-animation-none" href="/">
+                        <a class="" href="/">
                             <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                         </a>
                     </div>
                     <div class="teaser-base-item__content">
-                        <a class="teaser-base-item__content-text decoration-animation-none" href="/">
+                        <a class="teaser-base-item__content-text " href="/">
                             <div class="teaser-base-item__heading">
                                 <h3 class="h4 teaser-base-item__title">Epinova AI Assistant 2.0 för Optimizely – nu med Nya smarta verktyg</h3>
                             </div>

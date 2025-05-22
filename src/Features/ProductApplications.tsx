@@ -7,19 +7,19 @@ export default class ProductApplications extends HTMLElement {
         this.innerHTML = `
             <div class="product-applications-block">
                 <div class="product-applications-grid" data-container-width="bodytext">
-                    <div class="flex flex-col gap-8 pb-18 text-center">
+                    <div class="flex flex-col gap-8 pb-8 text-center">
                         <h2 class="text-3xl xl:text-5xl font-medium">Ứng dụng của sản phẩm</h2>
                     </div>
                     <div class="product-applications-block__wrapper" data-layout-smart="3-per-row">
                         <div class="product-applications-item" data-background-item="true" data-teaser-base-layout="grid">
                             <div class="product-applications-item__wrapper">
                                 <div class="product-applications-item__image">
-                                    <a class="decoration-animation-none" href="/">
+                                    <a class="" href="/">
                                         <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                                     </a>
                                 </div>
                                 <div class="product-applications-item__content">
-                                    <a class="product-applications-item__content-text decoration-animation-none text-center" href="/">
+                                    <a class="product-applications-item__content-text  text-center" href="/">
                                         <div class="product-applications-item__heading">
                                             <h3 class="h4 product-applications-item__title">Sản xuất đá nhân tạo</h3>
                                         </div>
@@ -33,12 +33,12 @@ export default class ProductApplications extends HTMLElement {
                         <div class="product-applications-item" data-background-item="true" data-teaser-base-layout="grid">
                             <div class="product-applications-item__wrapper">
                                 <div class="product-applications-item__image">
-                                    <a class="decoration-animation-none" href="/">
+                                    <a class="" href="/">
                                         <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                                     </a>
                                 </div>
                                 <div class="product-applications-item__content">
-                                    <a class="product-applications-item__content-text decoration-animation-none text-center" href="/">
+                                    <a class="product-applications-item__content-text  text-center" href="/">
                                         <div class="product-applications-item__heading">
                                             <h3 class="h4 product-applications-item__title"> Sản xuất đá vật liệu xây dựng</h3>
                                         </div>
@@ -52,12 +52,12 @@ export default class ProductApplications extends HTMLElement {
                         <div class="product-applications-item" data-background-item="true" data-teaser-base-layout="grid">
                             <div class="product-applications-item__wrapper">
                                 <div class="product-applications-item__image">
-                                    <a class="decoration-animation-none" href="/">
+                                    <a class="" href="/">
                                         <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                                     </a>
                                 </div>
                                 <div class="product-applications-item__content">
-                                    <a class="product-applications-item__content-text decoration-animation-none text-center" href="/">
+                                    <a class="product-applications-item__content-text  text-center" href="/">
                                         <div class="product-applications-item__heading">
                                             <h3 class="h4 product-applications-item__title"> Sản xuất vật liệu abc</h3>
                                         </div>

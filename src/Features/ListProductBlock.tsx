@@ -10,12 +10,12 @@ export default class ListProductBlock extends HTMLElement {
                         <div class="list-product-block-item text-center" data-teaser-base-layout="grid">
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
-                                    <a class="decoration-animation-none" href="/">
+                                    <a class="" href="/">
                                         <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
-                                    <a class="list-product-block-item__content-text decoration-animation-none" href="/">
+                                    <a class="list-product-block-item__content-text " href="/">
                                         <div class="list-product-block-item__heading">
                                             <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                         </div>
@@ -26,12 +26,12 @@ export default class ListProductBlock extends HTMLElement {
                         <div class="list-product-block-item text-center" data-teaser-base-layout="grid">
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
-                                    <a class="decoration-animation-none" href="/">
+                                    <a class="" href="/">
                                         <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
-                                    <a class="list-product-block-item__content-text decoration-animation-none" href="/">
+                                    <a class="list-product-block-item__content-text " href="/">
                                         <div class="list-product-block-item__heading">
                                             <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                         </div>
@@ -42,12 +42,12 @@ export default class ListProductBlock extends HTMLElement {
                         <div class="list-product-block-item text-center" data-teaser-base-layout="grid">
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
-                                    <a class="decoration-animation-none" href="/">
+                                    <a class="" href="/">
                                         <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
-                                    <a class="list-product-block-item__content-text decoration-animation-none" href="/">
+                                    <a class="list-product-block-item__content-text " href="/">
                                         <div class="list-product-block-item__heading">
                                             <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                         </div>
@@ -58,12 +58,12 @@ export default class ListProductBlock extends HTMLElement {
                         <div class="list-product-block-item text-center" data-teaser-base-layout="grid">
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
-                                    <a class="decoration-animation-none" href="/">
+                                    <a class="" href="/">
                                         <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
-                                    <a class="list-product-block-item__content-text decoration-animation-none" href="/">
+                                    <a class="list-product-block-item__content-text " href="/">
                                         <div class="list-product-block-item__heading">
                                             <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                         </div>
@@ -74,12 +74,12 @@ export default class ListProductBlock extends HTMLElement {
                         <div class="list-product-block-item text-center" data-teaser-base-layout="grid">
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
-                                    <a class="decoration-animation-none" href="/">
+                                    <a class="" href="/">
                                         <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
-                                    <a class="list-product-block-item__content-text decoration-animation-none" href="/">
+                                    <a class="list-product-block-item__content-text " href="/">
                                         <div class="list-product-block-item__heading">
                                             <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                         </div>
@@ -90,12 +90,12 @@ export default class ListProductBlock extends HTMLElement {
                         <div class="list-product-block-item text-center" data-teaser-base-layout="grid">
                             <div class="list-product-block-item__wrapper">
                                 <div class="list-product-block-item__image">
-                                    <a class="decoration-animation-none" href="/">
+                                    <a class="" href="/">
                                         <img alt="image" src="./src/assets/images/image-item.png">
                                     </a>
                                 </div>
                                 <div class="list-product-block-item__content">
-                                    <a class="list-product-block-item__content-text decoration-animation-none" href="/">
+                                    <a class="list-product-block-item__content-text " href="/">
                                         <div class="list-product-block-item__heading">
                                             <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                         </div>
@@ -105,7 +105,7 @@ export default class ListProductBlock extends HTMLElement {
                         </div>
                     </div>
                     <div class="justify-center mt-15">
-                        <a href="/" class="btn decoration-animation-none" href="/no/signin.html">
+                        <a href="/" class="btn " href="/no/signin.html">
                             <span>Xem thêm</span>
                         </a>
                     </div>

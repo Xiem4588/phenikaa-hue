@@ -25,23 +25,6 @@ a {
     color: currentColor;
     text-decoration: none;
     position: relative;
-    display: inline-block;
-
-    @include decoration-animation;
-
-    @include media-desktop {
-        &:hover {
-            &::before {
-                width: 100%;
-            }
-        }
-    }
-
-    &.decoration-animation-none {
-        &::before {
-            display: none;
-        }
-    }
 }
 
 button {
@@ -54,6 +37,54 @@ img {
     object-fit: cover;
 }
 
+.link-decoration {
+    @include decoration-all($height: 1px);
+
+    @include media-desktop {
+        &:hover {
+            background-size: 100% 1px;
+        }
+    }
+}
+
+.link-decoration-all a {
+    @include decoration-all($height: 1px);
+
+    @include media-desktop {
+        &:hover {
+            background-size: 100% 1px;
+        }
+    }
+}
+
+.link-decoration-one {
+    @include decoration-one($height: 1px);
+
+    @include media-desktop {
+        &:hover {
+            &::before {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.link-decoration-one-all a {
+    @include decoration-one($height: 1px);
+
+    @include media-desktop {
+        &:hover {
+            &::before {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.list-auto {
+    list-style: auto;
+    padding-left: 24px;
+}
 
 .preamble,
 .preamble p {
@@ -106,7 +137,6 @@ h1,h2,h3,h4,h5,h6 {
     font-size: var(--typography-bodytext-4xl);
 
     @include media-desktop {
-        letter-spacing: 0.2rem;
         font-size: var(--typography-bodytext-6xl);
     }
 }
@@ -116,7 +146,6 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 1.2;
     font-family: var(--font-family-heading);
     font-size: var(--typography-bodytext-3xl);
-    letter-spacing: 0.1rem;
 
     @include media-desktop {
         font-size: var(--typography-bodytext-5xl);

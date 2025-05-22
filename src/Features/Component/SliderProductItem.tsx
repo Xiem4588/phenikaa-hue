@@ -6,12 +6,12 @@ export default class SliderProductItem extends HTMLElement {
             <div class="slider-product-item" data-background-item="true" data-teaser-base-layout="grid" data-teaser-base-layout-image-stand="left">
                 <div class="slider-product-item__wrapper">
                     <div class="slider-product-item__image">
-                        <a class="decoration-animation-none" href="/">
+                        <a class="" href="/">
                             <img alt="image" src="./src/assets/images/image-item-3.png">
                         </a>
                     </div>
                     <div class="slider-product-item__content">
-                        <a class="slider-product-item__content-text decoration-animation-none text-center" href="/">
+                        <a class="slider-product-item__content-text  text-center" href="/">
                             <div class="slider-product-item__heading">
                                 <h3 class="text-xl xl:text-2xl font-medium slider-product-item__title">Sản phẩm 01</h3>
                             </div>

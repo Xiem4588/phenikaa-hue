@@ -1,6 +1,11 @@
 // Purpose: Define styles for Header.
 @use '../../styles/sass/mixins/' as *;
 
+@keyframes marquee {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
 [data-mega-menu-visible="true"] {
     overflow: hidden;
 }
@@ -17,22 +22,40 @@
     position: fixed;
 }
 
-.header-scroll-down {
-    transform: translateY(-100%);
+.animate-marquee {
+    animation: marquee 15s linear infinite;
+
+    @include media-tablet-medium {
+        animation: none;
+    }
 }
 
-.header-scroll-up {
-    box-shadow: 0 2px 40px rgb(var(--theme-on-background), 0.1);
+.material-icons {
+    font-size: var(--typography-bodytext-l);
 }
 
-.main-header {
+
+.main__header {
     background: rgb(var(--theme-background), 1);
     transition: transform 0.3s;
     padding: var(--space-16);
     backdrop-filter: blur(5px);
+    box-shadow: 0 2px 40px rgb(var(--theme-on-background), 0.1);
 
     @include media-tablet-medium {
         padding: var(--space-24);
+    }
+
+    a {
+        @include decoration-one($height: 1px);
+
+        @include media-desktop {
+            &:hover {
+                &::before {
+                    width: 100%;
+                }
+            }
+        }
     }
 }
 
@@ -137,7 +160,6 @@
     top: var(--main-header-height);
     left: 0;
     width: 100%;
-    font-size: var(--typography-bodytext-xl);
     height: calc(100vh - var(--main-header-height));
     background: rgb(var(--theme-background));
     color: rgb(var(--theme-on-background));
@@ -345,12 +367,10 @@
         padding: var(--space-4);
         width: auto;
 
-        @include decoration-animation;
+        @include decoration-all($height: 1px);
 
         &:hover {
-            &::before {
-                width: 100%;
-            }
+            background-size: 100% 1px;
 
         }
 
@@ -468,16 +488,14 @@
 .main-menu-header__select {
     position: relative;
 
-    @include decoration-animation;
+    @include decoration-all($height: 1px);
     &:hover {
-        &::before {
-            width: 100%;
-        }
+        background-size: 100% 1px;
     }
 }
 
 [data-set-item-menu-active="true"] {
-    color: rgb(var(--theme-accent));
+    color: #1F3A71;
     &::before {
         width: 100%;
     }

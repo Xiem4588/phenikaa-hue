@@ -10,6 +10,6 @@
     }
 
     @include container-desktop {
-        @include grid-columns($columns: 3, $gap: var(--space-50));
+        @include grid-columns($columns: 3, $gap: var(--space-32));
     }
 }

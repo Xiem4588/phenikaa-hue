@@ -4,9 +4,9 @@ export default class HotNewsBlock extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
-            <div class="grid md:grid-cols-4 gap-4 my-10" data-container-width="site">
+            <div class="grid md:grid-cols-4 gap-4 my-10" data-container-width="bodytext">
                 <div class="md:col-span-3">
-                    <a href="/news-category" class="hot-news-block decoration-animation-none">
+                    <a href="/news-category" class="hot-news-block ">
                         <div class="hot-news-block__image">
                             <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                         </div>
@@ -25,29 +25,37 @@ export default class HotNewsBlock extends HTMLElement {
                     </a>
                 </div>
         
-                <div class="md:col-span-1 grid grid-cols-3 md:grid-cols-1 gap-4">
-                    <a href="/news-category" class="hot-news-block decoration-animation-none">
+                <div class="md:col-span-1 grid grid-cols-2 md:grid-cols-1 gap-4">
+                    <a href="/news-category" class="hot-news-block ">
                         <div class="hot-news-block__image">
                             <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                         </div>
                         <div class="hot-news-block__content text-center flex items-center justify-center">
-                            <h2 class="h3">Tin tức công ty</h2>
+                            <h2 class="text-l xl:text-xl">Tin tức công ty</h2>
                         </div>
                     </a>
-                    <a href="/news-category" class="hot-news-block decoration-animation-none">
+                    <a href="/news-category" class="hot-news-block ">
                         <div class="hot-news-block__image">
                             <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                         </div>
                         <div class="hot-news-block__content text-center flex items-center justify-center">
-                            <h2 class="h3">Tin tức ngành</h2>
+                            <h2 class="text-l xl:text-xl">Tin tức ngành</h2>
                         </div>
                     </a>
-                    <a href="/news-category" class="hot-news-block decoration-animation-none">
+                    <a href="/news-category" class="hot-news-block ">
                         <div class="hot-news-block__image">
                             <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                         </div>
                         <div class="hot-news-block__content text-center flex items-center justify-center">
-                            <h2 class="h3">Đối tác & Khách hàng</h2>
+                            <h2 class="text-l xl:text-xl">Đối tác & Khách hàng</h2>
+                        </div>
+                    </a>
+                    <a href="/news-category" class="hot-news-block ">
+                        <div class="hot-news-block__image">
+                            <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
+                        </div>
+                        <div class="hot-news-block__content text-center flex items-center justify-center">
+                            <h2 class="text-l xl:text-xl">Đối tác & Khách hàng</h2>
                         </div>
                     </a>
                 </div>

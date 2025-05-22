@@ -1,7 +1,7 @@
 export default class AboutCommitment extends HTMLElement {
     innerHTML = `
         <div class="p-4 my-10 md:my-20">
-            <div class="flex flex-col md:flex-row lg:items-center" data-container-width="site">
+            <div class="flex flex-col md:flex-row lg:items-center" data-container-width="bodytext">
                 <div class="md:w-1/2">
                     <img alt="image" src="./src/assets/images/image-item-12.png">
                 </div>

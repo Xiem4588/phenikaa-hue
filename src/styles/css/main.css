@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 :root {
   /*{ "key":"--color-rgba-white", "value":"#FFFFFF", "name":"White" }*/
   --color-rgba-white: 255, 255, 255;
@@ -87,7 +88,7 @@
   --container-width-3xl: 1776px;
   --container-width-2xl: 1512px;
   --container-width-xl: 1440px;
-  --container-width-l: 1280px;
+  --container-width-l: 1200px;
   --container-width-m: 1024px;
   --container-width-s: 768px;
 }
@@ -123,28 +124,6 @@ a {
   color: currentColor;
   text-decoration: none;
   position: relative;
-  display: inline-block;
-  transition: all 0.2s;
-}
-a::before {
-  content: "";
-  width: 0%;
-  position: absolute;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  transition: all 0.2s;
-  background: currentColor;
-  border: 0;
-  display: block;
-}
-@media (width >= 1024px) {
-  a:hover::before {
-    width: 100%;
-  }
-}
-a.decoration-animation-none::before {
-  display: none;
 }
 
 button {
@@ -155,6 +134,83 @@ img {
   display: block;
   max-width: 100%;
   object-fit: cover;
+}
+
+.link-decoration {
+  display: inline;
+  background-image: linear-gradient(to right, currentColor 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  transition: 0.3s;
+  text-decoration: none;
+}
+@media (width >= 1024px) {
+  .link-decoration:hover {
+    background-size: 100% 1px;
+  }
+}
+
+.link-decoration-all a {
+  display: inline;
+  background-image: linear-gradient(to right, currentColor 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  transition: 0.3s;
+  text-decoration: none;
+}
+@media (width >= 1024px) {
+  .link-decoration-all a:hover {
+    background-size: 100% 1px;
+  }
+}
+
+.link-decoration-one {
+  transition: 0.3s;
+}
+.link-decoration-one::before {
+  content: "";
+  width: 0%;
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+  background: currentColor;
+  border: 0;
+  display: block;
+}
+@media (width >= 1024px) {
+  .link-decoration-one:hover::before {
+    width: 100%;
+  }
+}
+
+.link-decoration-one-all a {
+  transition: 0.3s;
+}
+.link-decoration-one-all a::before {
+  content: "";
+  width: 0%;
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+  background: currentColor;
+  border: 0;
+  display: block;
+}
+@media (width >= 1024px) {
+  .link-decoration-one-all a:hover::before {
+    width: 100%;
+  }
+}
+
+.list-auto {
+  list-style: auto;
+  padding-left: 24px;
 }
 
 .preamble,
@@ -202,7 +258,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (width >= 1024px) {
   .h1 {
-    letter-spacing: 0.2rem;
     font-size: var(--typography-bodytext-6xl);
   }
 }
@@ -212,7 +267,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-family: var(--font-family-heading);
   font-size: var(--typography-bodytext-3xl);
-  letter-spacing: 0.1rem;
 }
 @media (width >= 1024px) {
   .h2 {
@@ -379,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
   [data-layout-smart="3-per-row"] {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: var(--space-50);
+    gap: var(--space-32);
   }
 }
 
@@ -880,7 +934,6 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   outline: none;
   transition: all 0.2s;
-  letter-spacing: 0.05rem;
   text-decoration: none;
 }
 .btn:disabled {
@@ -969,7 +1022,6 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: var(--space-12);
   font-weight: 500;
-  letter-spacing: 0.05rem;
 }
 
 *:has(> .btn) {

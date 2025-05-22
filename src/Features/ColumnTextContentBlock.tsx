@@ -5,7 +5,7 @@ export default class ColumnTextContentBlock extends HTMLElement {
     innerHTML = `
         <div class="column-text-content-block" data-background="primary-10">
             <div data-container-width="bodytext">
-                <div class="flex flex-col gap-8 py-14 text-center">
+                <div class="flex flex-col gap-8 py-8 text-center">
                     <h2 class="text-3xl xl:text-5xl font-medium">
                         CRISTOBALITE DẠNG BỘT
                     </h2>

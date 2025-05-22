@@ -4,7 +4,7 @@ import './styles/_featured_content_block.scss';
 export default class FeaturedContentBlock extends HTMLElement {
     innerHTML = `
         <div class="featured-content-block" data-featured-content-padding="true" data-background="nebula">
-            <div class="featured-content-block__wrapper" data-featured-content-image-right="false" data-container-width="site">
+            <div class="featured-content-block__wrapper" data-featured-content-image-right="false" data-container-width="bodytext">
                 <div class="featured-content-block__image">
                     <img alt="image" src="https://www.epinova.se/contentassets/84a377d2dc0c41b193e39ceb38fb534f/webpage.jpg?mode=crop&scale=both&format=webp&f.sharpen=25&down.filter=robidoux_sharp&up.filter=robidoux_sharp&width=634&height=423">
                 </div>

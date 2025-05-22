@@ -1,10 +1,23 @@
 // Animation mixin
 
-@mixin decoration-animation(
+@mixin decoration-all (
     $color: currentColor,
     $height: 2px
 ) {
-    transition: all .2s;
+    display: inline;
+    background-image: linear-gradient(to right, $color 100%);
+    background-repeat: no-repeat;
+    background-size: 0% $height;
+    background-position: 0 100%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+@mixin decoration-one (
+    $color: currentColor,
+    $height: 2px
+) {
+    transition: 0.3s;
     &::before {
         content: '';
         width: 0%;
@@ -12,7 +25,7 @@
         height: $height;
         bottom: 0;
         left: 0;
-        transition: all .2s;
+        transition: 0.3s;
         background: $color;
         border: 0;
         display: block;

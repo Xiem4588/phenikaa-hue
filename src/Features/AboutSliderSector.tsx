@@ -7,7 +7,7 @@ export default class AboutSliderSector extends HTMLElement {
 
         this.innerHTML = `
             <div class="about-slider-sector-block container-type">
-                <div class="about-slider-sector-block__container" data-container-width="site">
+                <div class="about-slider-sector-block__container" data-container-width="bodytext">
                     <div class="about-slider-sector-block__heading">
                         <h2 class="text-2xl xl:text-4xl font-medium about-slider-sector-block__title">Lĩnh vực sản xuất</h2>
                     </div>
@@ -16,12 +16,12 @@ export default class AboutSliderSector extends HTMLElement {
                             <div class="swiper-slide sector-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="sector-teaser-base-item__wrapper">
                                     <div class="sector-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-8.png">
                                         </a>
                                     </div>
                                     <div class="sector-teaser-base-item__content">
-                                        <a class="sector-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="sector-teaser-base-item__content-text " href="/">
                                             <div class="sector-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -32,12 +32,12 @@ export default class AboutSliderSector extends HTMLElement {
                             <div class="swiper-slide sector-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="sector-teaser-base-item__wrapper">
                                     <div class="sector-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-8.png">
                                         </a>
                                     </div>
                                     <div class="sector-teaser-base-item__content">
-                                        <a class="sector-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="sector-teaser-base-item__content-text " href="/">
                                             <div class="sector-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -48,12 +48,12 @@ export default class AboutSliderSector extends HTMLElement {
                             <div class="swiper-slide sector-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="sector-teaser-base-item__wrapper">
                                     <div class="sector-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-8.png">
                                         </a>
                                     </div>
                                     <div class="sector-teaser-base-item__content">
-                                        <a class="sector-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="sector-teaser-base-item__content-text " href="/">
                                             <div class="sector-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -64,12 +64,12 @@ export default class AboutSliderSector extends HTMLElement {
                             <div class="swiper-slide sector-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="sector-teaser-base-item__wrapper">
                                     <div class="sector-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-8.png">
                                         </a>
                                     </div>
                                     <div class="sector-teaser-base-item__content">
-                                        <a class="sector-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="sector-teaser-base-item__content-text " href="/">
                                             <div class="sector-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -80,12 +80,12 @@ export default class AboutSliderSector extends HTMLElement {
                             <div class="swiper-slide sector-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="sector-teaser-base-item__wrapper">
                                     <div class="sector-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-8.png">
                                         </a>
                                     </div>
                                     <div class="sector-teaser-base-item__content">
-                                        <a class="sector-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="sector-teaser-base-item__content-text " href="/">
                                             <div class="sector-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>

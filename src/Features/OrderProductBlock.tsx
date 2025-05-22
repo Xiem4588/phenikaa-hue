@@ -9,7 +9,7 @@ export default class OrderProductBlock extends HTMLElement {
                     <h2 class="text-2xl xl:text-4xl font-medium">Order sản phẩm mẫu</h2>
                 </div>
                 <div class="justify-center mt-8 text-white text-center">
-                    <a href="#" class="bg-orange-500 px-6 py-2 rounded decoration-animation-none">Liên hệ với chúng tôi</a>
+                    <a href="#" class="bg-orange-500 px-6 py-2 rounded ">Liên hệ với chúng tôi</a>
                 </div>
             </div>
         </div>

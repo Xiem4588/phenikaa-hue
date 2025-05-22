@@ -22,8 +22,7 @@
     <site-header
         class="main-header"
         data-header-fixed-top="true"
-        data-header-scroll
-        data-header-height>
+        data-header-scroll>
     </site-header>
 
     <main class="main-content">
@@ -65,11 +64,23 @@
                             <label class="block text-gray-700 font-medium mb-1">Tin nhắn*</label>
                             <textarea placeholder="Nhập thông điệp của bạn" class="w-full flex-1 p-2.5 border border-gray-300 focus:ring-orange-400" required></textarea>
                         </div>
-                        <div class="confirm-text">
-                            <ul class="list-disc pl-5">
-                                <li>Tôi đồng ý nhận các thông tin qua email và hiểu rằng thông tin của tôi sẽ được sử dụng cho mục đích tiếp thị.</li>
-                                <li>Bằng cách cung cấp thông tin và nhấn Gửi, bạn xác hận và đồng ý với <a class="font-bold" href="#">Chính sách quyền riêng tư</a> và <a class="font-bold" href="#">Điều khoản sử dụng</a> của trang web chúng tôi</li>
-                            </ul>
+                        <div class="flex-1 flex flex-col gap-1 text-sm">
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="checkbox1">
+                                <label for="checkbox1">Toi dong y</label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="radio" id="radio1" name="radio">
+                                <label for="radio1">
+                                    content1...
+                                </label>
+                            </div>
+                            <div class="checkbox-row">
+                                <input type="radio" id="radio2" name="radio">
+                                <label for="radio2">
+                                    content2...
+                                </label>
+                            </div>
                         </div>
                         <div class="bor">
                             <button type="submit" class="bg-orange-500 text-white px-10 py-3 rounded-md hover:bg-orange-600 transition">

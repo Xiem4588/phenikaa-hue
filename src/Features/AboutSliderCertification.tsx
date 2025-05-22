@@ -16,12 +16,12 @@ export default class AboutSliderCertification extends HTMLElement {
                             <div class="swiper-slide certification-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="certification-teaser-base-item__wrapper">
                                     <div class="certification-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-4.png">
                                         </a>
                                     </div>
                                     <div class="certification-teaser-base-item__content">
-                                        <a class="certification-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="certification-teaser-base-item__content-text " href="/">
                                             <div class="certification-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -32,12 +32,12 @@ export default class AboutSliderCertification extends HTMLElement {
                             <div class="swiper-slide certification-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="certification-teaser-base-item__wrapper">
                                     <div class="certification-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-4.png">
                                         </a>
                                     </div>
                                     <div class="certification-teaser-base-item__content">
-                                        <a class="certification-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="certification-teaser-base-item__content-text " href="/">
                                             <div class="certification-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -48,12 +48,12 @@ export default class AboutSliderCertification extends HTMLElement {
                             <div class="swiper-slide certification-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="certification-teaser-base-item__wrapper">
                                     <div class="certification-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-4.png">
                                         </a>
                                     </div>
                                     <div class="certification-teaser-base-item__content">
-                                        <a class="certification-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="certification-teaser-base-item__content-text " href="/">
                                             <div class="certification-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -64,12 +64,12 @@ export default class AboutSliderCertification extends HTMLElement {
                             <div class="swiper-slide certification-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="certification-teaser-base-item__wrapper">
                                     <div class="certification-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-4.png">
                                         </a>
                                     </div>
                                     <div class="certification-teaser-base-item__content">
-                                        <a class="certification-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="certification-teaser-base-item__content-text " href="/">
                                             <div class="certification-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
@@ -80,12 +80,12 @@ export default class AboutSliderCertification extends HTMLElement {
                             <div class="swiper-slide certification-teaser-base-item text-center" data-teaser-base-layout="grid">
                                 <div class="certification-teaser-base-item__wrapper">
                                     <div class="certification-teaser-base-item__image">
-                                        <a class="decoration-animation-none" href="/">
+                                        <a class="" href="/">
                                             <img alt="image" src="./src/assets/images/image-item-4.png">
                                         </a>
                                     </div>
                                     <div class="certification-teaser-base-item__content">
-                                        <a class="certification-teaser-base-item__content-text decoration-animation-none" href="/">
+                                        <a class="certification-teaser-base-item__content-text " href="/">
                                             <div class="certification-teaser-base-item__heading">
                                                 <h3 class="h4 teaser-base-item__title">Bred Binder</h3>
                                             </div>
