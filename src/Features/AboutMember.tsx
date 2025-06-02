@@ -119,60 +119,60 @@ export default class AboutMember extends HTMLElement {
         
         <div class="p-4 my-10 md:my-20 count-numbers-block">
             <div class="flex flex-col" data-container-width="bodytext">
-                <h2 class="text-3xl xl:text-5xl font-medium">Những con số ấn tượng của Phenikaa Huế</h2>
+                <h2 class="text-3xl xl:text-5xl font-medium">Impressive numbers of Phenikaa Hue</h2>
                 <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-3 mt-10">
                     <div class="flex flex-col gap-4">
                         <div class="ml-4 text-5xl font-semibold text-orange-500">
-                            <span class="stat-value count-numbers-value" data-value="9">0</span><span>+</span>
+                            <span class="stat-value count-numbers-value" data-value="9">9</span><span>+</span>
                         </div>
                         <div class="flex h-full gap-4">
                             <div class="w-0.5 bg-[#1F3A71]"></div>
-                            <div class="text-pretty flex-1 py-2.5">Hơn 9 năm hình thành và phát triển bền vững.</div>
+                            <div class="text-pretty flex-1 py-2.5">Over 9 years of sustainable growth and development.</div>
                         </div>
                     </div>
                     <div class="flex flex-col gap-4">
                         <div class="ml-4 text-5xl font-semibold text-orange-500">
-                            <span class="stat-value count-numbers-value" data-value="190">0</span><span>+</span>
+                            <span class="stat-value count-numbers-value" data-value="190">190</span><span>+</span>
                         </div>
                         <div class="flex h-full gap-4">
                             <div class="w-0.5 bg-[#1F3A71]"></div>
-                            <div class="text-pretty flex-1 py-2.5">Đội ngũ nhân sự chuyên nghiệp, vận hành hiệu quả.</div>
+                            <div class="text-pretty flex-1 py-2.5">A professional and efficient workforce.</div>
                         </div>
                     </div>
                     <div class="flex flex-col gap-4">
                         <div class="ml-4 text-5xl font-semibold text-orange-500">
-                            <span class="stat-value count-numbers-value" data-value="9">0</span><span>+</span>
+                            <span class="stat-value count-numbers-value" data-value="9">9</span><span>+</span>
                         </div>
                         <div class="flex h-full gap-4">
                             <div class="w-0.5 bg-[#1F3A71]"></div>
-                            <div class="text-pretty flex-1 py-2.5">Xuất khẩu đến 9+ quốc gia, khẳng định vị thế trên thị trường quốc tế.</div>
+                            <div class="text-pretty flex-1 py-2.5">Exporting to over 9 countries, affirming our global presence.</div>
                         </div>
                     </div>
                     <div class="flex flex-col gap-4">
                         <div class="ml-4 text-5xl font-semibold text-orange-500">
-                            <span class="stat-value count-numbers-value" data-value="37500">0</span><span>m²</span>
+                            <span class="stat-value count-numbers-value" data-value="37500">37,500</span><span>m²</span>
                         </div>
                         <div class="flex h-full gap-4">
                             <div class="w-0.5 bg-[#1F3A71]"></div>
-                            <div class="text-pretty flex-1 py-2.5">Diện tích sản xuất hơn 37.500 m² tại Khu công nghiệp Phong Điền.</div>
+                            <div class="text-pretty flex-1 py-2.5">Over 37,500 m² of production space at Phong Dien Industrial Park.</div>
                         </div>
                     </div>
                     <div class="flex flex-col gap-4">
                         <div class="ml-4 text-5xl font-semibold text-orange-500">
-                            <span class="stat-value count-numbers-value" data-value="99">0</span><span>%</span>
+                            <span class="stat-value count-numbers-value" data-value="99">99</span><span>%</span>
                         </div>
                         <div class="flex h-full gap-4">
                             <div class="w-0.5 bg-[#1F3A71]"></div>
-                            <div class="text-pretty flex-1 py-2.5">Hệ thống sản xuất tự động hóa cao, đảm bảo chất lượng và hiệu suất vượt trội.</div>
+                            <div class="text-pretty flex-1 py-2.5">Highly automated production system, ensuring superior quality and performance.</div>
                         </div>
                     </div>
                     <div class="flex flex-col gap-4">
                         <div class="ml-4 text-5xl font-semibold text-orange-500">
-                            <span class="stat-value count-numbers-value" data-value="86000">0</span><span>%</span>
+                            <span class="stat-value count-numbers-value" data-value="86000">86,000</span><span>%</span>
                         </div>
                         <div class="flex h-full gap-4">
                             <div class="w-0.5 bg-[#1F3A71]"></div>
-                            <div class="text-pretty flex-1 py-2.5">Công suất sản xuất, đáp ứng nhu cầu đa dạng của thị trường.</div>
+                            <div class="text-pretty flex-1 py-2.5">Annual capacity to meet diverse market demands.</div>
                         </div>
                     </div>
                 </div>
