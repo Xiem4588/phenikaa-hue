@@ -6,7 +6,7 @@ export default class HeroStartBlock extends HTMLElement {
 
         this.innerHTML = `
             <div class="hero-start-block hero-start-block--2-per-row" data-hero-start-background-image="${isBackgroundImage}">
-                <div class="hero-start-block__image lg:w-1/2 aspect-[4/3]">
+                <div class="hero-start-block__image flex-1 lg:w-1/2 aspect-[4/3]">
                     <img alt="image" src="./src/assets/images/start-hero-banner.jpg">
                 </div>
                 <div class="hero-start-block__content lg:w-1/2">

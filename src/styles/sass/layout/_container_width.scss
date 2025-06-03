@@ -8,6 +8,10 @@
     @include mediaContainerWidth(var(--container-width-s));
 }
 
+[data-container-width="site-medium"] {
+    @include mediaContainerWidth(var(--container-width-m));
+}
+
 [data-container-width="site"] {
     @include mediaContainerWidth(var(--container-width-xl));
 }

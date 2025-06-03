@@ -325,6 +325,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
+[data-container-width=site-medium] {
+  max-width: var(--container-width-m);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 [data-container-width=site] {
   max-width: var(--container-width-xl);
   width: 100%;
